@@ -99,8 +99,8 @@ $(document).ready(function(){
         controller.addTween('.top_animationa', TweenMax.from( $('.top_animationa'), .5, {css:{opacity: 0, top: '20px'}}));
         controller.addTween('.top_animationb', TweenMax.from( $('.top_animationb'), .5, {css:{opacity: 0, top: '20px'}}));
         controller.addTween('.top_animationc', TweenMax.from( $('.top_animationc'), .5, {css:{opacity: 0, top: '20px'}}));        
-        controller.addTween('.top_animationd', TweenMax.from( $('.top_animationd'), .5, {css:{opacity: 0, top: '20px'}}));        
-        controller.addTween('.top_animatione', TweenMax.from( $('.top_animatione'), .5, {css:{opacity: 0, top: '20px'}}));        
+        //controller.addTween('.top_animationd', TweenMax.from( $('.top_animationd'), .5, {css:{opacity: 0, top: '20px'}}));        
+        //controller.addTween('.top_animatione', TweenMax.from( $('.top_animatione'), .5, {css:{opacity: 0, top: '20px'}}));        
         controller.addTween('.top_animationf', TweenMax.from( $('.top_animationf'), .5, {css:{opacity: 0, top: '20px'}}));        
         controller.addTween('.top_animationg', TweenMax.from( $('.top_animationg'), .5, {css:{opacity: 0, top: '20px'}}));        
         // rotation_animations
