@@ -1,6 +1,6 @@
 <?php 
-	$usuario = "carilo";
-	$clave = "carilo";
+	$usuario = "ger";
+	$clave = "ger";
 	$host = "localhost";
-	$db = "carilo";
+	$db = "waterenergy";
 ?>
