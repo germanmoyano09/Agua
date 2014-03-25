@@ -4,7 +4,7 @@
   <div class="header-inner">
 	 <!-- BEGIN LOGO -->  
 	 <a class="navbar-brand" href="index.php">
-	 <img src="assets/img/logo.png" alt="logo" class="img-responsive" />
+		<img src="assets/img/logo.png" alt="logo" class="img-responsive" />
 	 </a>
 	 <!-- END LOGO -->
 	 <!-- BEGIN RESPONSIVE MENU TOGGLER --> 
