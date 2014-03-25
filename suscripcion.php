@@ -140,8 +140,9 @@
                     <div class="span12">
                         <h3>Suscripción</h3>
 					    <p> 
-							Si te suscribes a nuestro Boletín de Noticas podrás estar informado puntualmente de todas las actividades que se realizarán a lo
-							largo del año. Por favor, rellena todos los campos para que te podamos dar un mejor servicio.
+							Si te suscribes al Boletín de Noticas podrás estar informado puntualmente de todas las actividades que se realizarán a lo
+							largo del año. Por favor, rellena todos los campos para poder brindarte un mejor servicio. Los campos con un asterisco (*)
+							son obligatorios.
 						</p>
 						
 					</div>
@@ -158,11 +159,11 @@
 
                         <div class="span6">
                             <h3>Formulario de suscripción</h3>
-                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
-                                <input type="text" placeholder="Nombre" name="Name" required>
-								<input type="text" placeholder="Apellido" name="LastName" required>
-                                <input type="email" placeholder="Correo"  name="Email" required>
-                                <input type="text" placeholder="Telefono" name="LastName" required>
+                            <form id="form" action="">
+                                <input type="text" placeholder="Nombre *" name="nombre" required>
+								<input type="text" placeholder="Apellido *" name="apellido" required>
+                                <input type="email" placeholder="Correo *"  name="correo" required>
+                                <input type="text" placeholder="Telefono" name="telefono" required>
                                 
                                 <input type="submit" name="Submit" value="Send Message" class="button">
                             </form> 
