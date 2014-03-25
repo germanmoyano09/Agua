@@ -151,12 +151,36 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                </div>
             </div>
 			
+			
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+               <div class="dashboard-stat yellow">
+                  <div class="visual">
+                     <i class="icon-group"></i>
+                  </div>
+                  <div class="details">
+                     <div class="number">
+						<?php 
+							$sql = "SELECT * FROM registro";
+							$result = mysqli_query($conexion, $sql);
+							$row_cnt = mysqli_num_rows($result);
+							printf($row_cnt);
+						?>
+					 </div>
+                     <div class="desc">Registrados</div>
+                  </div>
+                  <a class="more" href="registro.php">
+                  Administrar <i class="m-icon-swapright m-icon-white"></i>
+                  </a>                 
+               </div>
+            </div>
+			
+			
 			<!-- ------------------------------------------------------------------- -->
 			
 			<!--
 			
 		 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-               <div class="dashboard-stat yellow">
+               <div class="dashboard-stat brown">
                   <div class="visual">
                      <i class="icon-dollar"></i>
                   </div>

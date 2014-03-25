@@ -42,6 +42,13 @@
 			</a>
 		</li>
 		
+		<li class="<?php if ($titulo=="Registro") echo 'active';?>">
+			<a href="registro.php">
+			<i class="icon-group"></i>
+			<span class="title">Registrados</span>
+			</a>
+		</li>
+				
 		<!--
 		
 		<li class="<?php if ($titulo=="Lugares") echo 'active';?>">
