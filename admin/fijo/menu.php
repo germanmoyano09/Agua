@@ -14,19 +14,23 @@
 			</a>
 		</li>
 		
-		<li class="<?php if ($titulo=="Sponsors") echo 'active';?>">
-			<a href="sponsors.php">
-			<i class="icon-dollar"></i> 
-			<span class="title">Sponsors</span>
+		<li class="<?php if ($titulo=="Sliders") echo 'active';?>">
+			<a href="slider.php">
+			<i class="icon-list-alt"></i> 
+			<span class="title">Sliders</span>
 			</a>
 		</li>
 		
-		<li class="<?php if ($titulo=="Flyers") echo 'active';?>">
-			<a href="flyers.php">
-			<i class="icon-list-alt"></i> 
-			<span class="title">Flyers</span>
+		<li class="<?php if ($titulo=="Galeria") echo 'active';?>">
+			<a href="galeria.php">
+			<i class="icon-camera"></i> 
+			<span class="title">Galeria</span>
 			</a>
 		</li>
+		
+		
+		
+		<!--
 		
 		<li class="<?php if ($titulo=="Lugares") echo 'active';?>">
 			<a href="lugares.php">
@@ -82,6 +86,8 @@
 				</li>
 			</ul>
 		</li>
+		
+		-->
 		
 		<li >
 			<a href="../" target="_blank">
