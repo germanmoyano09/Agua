@@ -50,18 +50,18 @@ var TablaLugares = function () {
 
             });
 			
-			$('#borrarflyer').live('click', function (e) {
+			$('#borrargaleria').live('click', function (e) {
 				e.preventDefault();
 
-				if (confirm("Seguro que desea eliminar el flyer?") == false) {
+				if (confirm("Seguro que desea eliminar la foto?") == false) {
 					return;
 				}
 				
-				var idflyer = $(this).attr("flyer-id");
+				var idgaleria = $(this).attr("galeria-id");
 				$.ajax({
 					type:"POST",
-					url: "borrarflyers.php",
-					data:{id:idflyer}
+					url: "borrargaleria.php",
+					data:{id:idgaleria}
 				}).done(function(msg){
 					if (msg == 0){
 						//alert("Flyer borrado.");

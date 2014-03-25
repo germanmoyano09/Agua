@@ -89,7 +89,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 									  <td><?php echo $galeria['posicion']; ?></td>
 									  <td><?php echo $galeria['nombre']; ?></td>
 									  <td><a href="editarflyers.php?id=<?php echo $galeria['id'];?>">Editar</a></td>
-									  <td><a id="borrarflyer" galeria-id="<?php echo $galeria['id'];?>" href="#">Borrar</a></td>
+									  <td><a id="borrargaleria" galeria-id="<?php echo $galeria['id'];?>" href="#">Borrar</a></td>
 								    </tr>
 								<?php 
 								}
