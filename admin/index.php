@@ -51,6 +51,63 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
          <!-- BEGIN PAGE CONTENT-->
          <div class="row">
 			
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+               <div class="dashboard-stat darkblue">
+                  <div class="visual">
+                     <i class="icon-list-alt"></i>
+                  </div>
+                  <div class="details">
+                     <div class="number">
+					 0
+						<?php 
+						/*
+							$sql = "SELECT * FROM musica";
+							$result = mysqli_query($conexion, $sql);
+							$row_cnt = mysqli_num_rows($result);
+							printf($row_cnt);
+							*/
+						?>
+					 </div>
+                     <div class="desc">Sliders</div>
+                  </div>
+                  <a class="more" href="slider.php">
+                  Administrar <i class="m-icon-swapright m-icon-white"></i>
+                  </a>                 
+               </div>
+            </div>
+			
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+               <div class="dashboard-stat red">
+                  <div class="visual">
+                     <i class="icon-camera"></i>
+                  </div>
+                  <div class="details">
+                     <div class="number">
+					 0
+                        <?php 
+						/*
+							$sql = "SELECT * FROM album";
+							$result = mysqli_query($conexion, $sql);
+							$row_cnt = mysqli_num_rows($result);
+							printf($row_cnt);
+						*/
+						?>
+                     </div>
+                     <div class="desc">                           
+                        Galería Inicio 
+                     </div>
+                  </div>
+                  <a class="more" href="fotos.php">
+                  Administrar <i class="m-icon-swapright m-icon-white"></i>
+                  </a>                 
+               </div>
+            </div>
+			
+			
+			<!-- ------------------------------------------------------------------- -->
+			
+			<!--
+			
 		 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                <div class="dashboard-stat yellow">
                   <div class="visual">
@@ -58,11 +115,15 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
 						  	<?php 
+							
+								/*
 								$sql = "SELECT * FROM sponsor";
 								$result = mysqli_query($conexion, $sql);
 							    $row_cnt = mysqli_num_rows($result);
 							    printf($row_cnt);
+								*/
 							?>
                      </div>
                      <div class="desc">                           
@@ -83,11 +144,14 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
                         <?php 
+						/*
 							$sql = "SELECT * FROM flyer";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+						*/
 						?>
                      </div>
                      <div class="desc">                           
@@ -101,17 +165,20 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
             </div>
             
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-               <div class="dashboard-stat red">
+               <div class="dashboard-stat blue">
                   <div class="visual">
                      <i class="icon-picture"></i>
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
                         <?php 
+						/*
 							$sql = "SELECT * FROM lugar";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+						*/
 						?>
                      </div>
                      <div class="desc">                           
@@ -124,29 +191,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                </div>
             </div>
 			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-               <div class="dashboard-stat blue">
-                  <div class="visual">
-                     <i class="icon-camera"></i>
-                  </div>
-                  <div class="details">
-                     <div class="number">
-                        <?php 
-							$sql = "SELECT * FROM album";
-							$result = mysqli_query($conexion, $sql);
-							$row_cnt = mysqli_num_rows($result);
-							printf($row_cnt);
-						?>
-                     </div>
-                     <div class="desc">                           
-                        Albums 
-                     </div>
-                  </div>
-                  <a class="more" href="fotos.php">
-                  Administrar <i class="m-icon-swapright m-icon-white"></i>
-                  </a>                 
-               </div>
-            </div>
+			
 			
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                <div class="dashboard-stat orange">
@@ -155,11 +200,14 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
                         <?php 
+						/*
 							$sql = "SELECT * FROM categoria";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+							*/
 						?>
                      </div>
                      <div class="desc">                           
@@ -179,38 +227,19 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
-						<?php 
+					 0
+						<?php
+						/*						
 							$sql = "SELECT * FROM beneficio";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+						*/	
 						?>
 					 </div>
                      <div class="desc">Beneficios</div>
                   </div>
                   <a class="more" href="beneficios.php">
-                  Administrar <i class="m-icon-swapright m-icon-white"></i>
-                  </a>                 
-               </div>
-            </div>
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-               <div class="dashboard-stat darkblue">
-                  <div class="visual">
-                     <i class="icon-music"></i>
-                  </div>
-                  <div class="details">
-                     <div class="number">
-						<?php 
-							$sql = "SELECT * FROM musica";
-							$result = mysqli_query($conexion, $sql);
-							$row_cnt = mysqli_num_rows($result);
-							printf($row_cnt);
-						?>
-					 </div>
-                     <div class="desc">Música</div>
-                  </div>
-                  <a class="more" href="musica.php">
                   Administrar <i class="m-icon-swapright m-icon-white"></i>
                   </a>                 
                </div>
@@ -223,11 +252,14 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
 						<?php 
+						/*
 							$sql = "SELECT * FROM socio";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+							*/
 						?>
 					 </div>
                      <div class="desc">Socios</div>
@@ -245,11 +277,14 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
+					 0
 						<?php 
+						/*
 							$sql = "SELECT * FROM sociovip";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
+							*/
 						?>
 					 </div>
                      <div class="desc">Socios VIP</div>
@@ -259,7 +294,8 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </a>                 
                </div>
             </div>			
-			
+		
+		-->
 			
          </div>
          <!-- END PAGE CONTENT-->
