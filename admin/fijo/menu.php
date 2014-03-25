@@ -28,7 +28,19 @@
 			</a>
 		</li>
 		
+		<li class="<?php if ($titulo=="Lugares") echo 'active';?>">
+			<a href="evento.php">
+			<i class="icon-calendar"></i> 
+			<span class="title">Eventos</span>
+			</a>
+		</li>
 		
+		<li class="<?php if ($titulo=="Link") echo 'active';?>">
+			<a href="link.php">
+			<i class="icon-external-link"></i> 
+			<span class="title">Links</span>
+			</a>
+		</li>
 		
 		<!--
 		
