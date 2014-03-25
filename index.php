@@ -49,7 +49,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
+                            <a href="index.php" title="Back to Home">                            
                                <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -64,41 +64,41 @@
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->

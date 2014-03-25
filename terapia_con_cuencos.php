@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Watsu</title>    
+    <title>Water Energy - Eventos</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,7 +38,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
+                            <a href="index.php" title="Back to Home">                            
                               <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -49,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="#">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="#">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Watsu</h1>
+                        <h1>Terapia con Cuencos</h1>
                     </div>
                 </div>
             </div>            
@@ -116,11 +116,11 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
                     <li>Terapias</li>
                     <li>/</li>
-                    <li>Watsu</li>                                       
+                    <li>Terapia con Cuencos</li>                                       
                 </ul>
             </div>        
         </div>
@@ -135,31 +135,76 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2>Watsu</h2>
+                    <h2>Terapia con Cuencos</h2>
                     <p>
-						WATSU es la unión de dos palabras: Water (agua) y Shiatsu (milenaria técnica japonesa que apoya procesos de sanación), es decir 
-						Shiatsu en el agua.
+						Nadie puede negar los beneficios que los cuencos tibetanos traen a las personas. Su sonido es utilizado en terapias para 
+						sanar a personas que tienen problemas psicológicos o emocionales, también disminuye dolores, y hasta afirman que esta terapia 
+						sonora elimina células cancerosas del organismo.
                     </p>    
                     <p>
-						Tener el cuerpo sumergido en el agua, permite aprovechar el estado de ingravidez para liberar los músculos y articulaciones. El 
-						contacto con el agua genera entonces una libertad de movimientos que hace que esta técnica de masaje sea una de las más relajantes 
-						que existe. Podemos decir, en su nivel mas simple, que es un masaje flotante. 
+						En las sesiones de cuenco terapia los pacientes deben recostarse y cerrar sus ojos y dejar que las vibraciones armónicas que 
+						producen los cuencos metálicos entren en su cuerpo. Al terminar la sesión su equilibrio físico y emocional quedaran estabilizados.
                     </p>    
                     <p>
-						Con la ayuda de un terapeuta, el cuerpo del paciente flota cómodamente en una piscina con agua temperada (34º a 36º) mientras los
-						músculos son masajeados, las articulaciones movilizadas, los tejidos son estirados, los canales energéticos abiertos y el cuerpo es
-						agradablemente mecido por medio del agua. La mayoría de las personas opina que el Watsu es totalmente relajante. Los kinesiólogos, 
-						masajistas y otros practicantes de trabajo corporal alrededor del mundo, lo usan para tratar el estrés, dolores crónicos, artritis, 
-						fibromialgia, desórdenes del sueño y muchos otros malestares.
-					</p>	
+						¿Pero cómo se produce esto? Es que las vibraciones de los cuencos son tan potentes que alteran el organismo del paciente de una manera 
+						armónica. Durante la sesión el cuenco es colocado en las piernas del paciente, las vibraciones comienzan recorriendo la columna vertebral 
+						y desparramándose por todo el cuerpo hasta llegar al sistema nervioso y órganos. 
+                    </p> 
 					<p>
-						Una característica que diferencia al Watsu del masaje y de otras terapias corporales, es que da la oportunidad de trascender lo físico.
-						Porque con una relajación tan profundamente como es posible, en la calidez e ingravidez del Watsu, la mente puede dejar de “parlotear”
-						y cuando la mente y el cuerpo están en paz, lo que queda es la esencia fundamental del “Ser”.
+						Los sonidos del cuenco en la terapia hacen que el cerebro del paciente quede en un estado de calma ya que lo ayuda a emitir ondas alfa,
+						es por esto que cuerpo pasa a estar totalmente relajado y la persona se siente bien. Este estado aumenta la cantidad de Linfocitos T 
+						que son los que refuerzan el sistema inmunitario.
 					</p>
-                    <div class="vertical_line"></div> 
-					<img src="img/terapias/watsu.jpg" alt="Image" class="padding_top_mini">          
+					<p>
+						<h5>Con los cuencos tibetanos se puede tratar:</h5>
+							<br>- Estados de depresión y angustia.
+							<br>- Contracturas musculares.
+							<br>- Desequilibrios psicológicos.
+							<br>- El estrés y la ansiedad.
+							<br>- Problemas de visión.
+							<br>- Dolores de cabeza.
+							<br>- Estados de ánimo.
+							<br>- Aumento de Defensas del organismo.
+							<br>- Estabilidad mental y emocional.
+							<br>- Aumento de auto confianza.
+							<br>- Controla los estados de insomnio e hiperactividad.
+							<br>- Equilibrio del cuerpo físico, emocional, mental y espiritual.
+							<br>- Enraizamiento planetario y personal.
+					</p>
+					<p>
+						<h5>Sesión de Cuencos</h5>
+					</p>
+					<p>
+						Una sesión de Cuencos Tibetanos es una fusión de técnicas ancestrales de los Himalayas y herramientas modernas de autoconocimiento que buscan
+						transformar situaciones en nuestras vidas y llegar  rápido al estado deseado.
+					</p>
+					<p>
+						<h5>Beneficios</h5>
+							<br>•Obtener calma y claridad a nivel mental y emocional.
+							<br>•Limpiar y purificar la energía del cuerpo, de las emociones y de la mente.
+							<br>•Reconstruir a través del sonido los tejidos del aura.
+							<br>•Entrar en estados de total relajación.
+							<br>•Ser consciente de mí y ver con más claridad la situación por la que se está atravesando.
+							<br>•Aumento de creatividad, concentración y capacidad de acción.
+
+					</p>
+					<p>
+						<h5>Objetivos</h5>
+							<br>•Encontrar un espacio interno desde la calma y la sanación.
+							<br>•Tener un reconocimiento de lo que soy y de lo que me está sucediendo.
+							<br>•Desarrollar el autoconocimiento y la automotivación.
+							<br>•Despertar la energía de la acción para el cambio y transformar tu vida de forma rápida y práctica.
+					</p>
+					<p>
+						<h5>Método</h5>
+					</p>
+					<p>
+						Para empezar una terapia con cuencos, es importante saber cuál es el propósito y que es lo que se quiere 
+						trabajar (aspectos emocionales, físicos o mentales). Se recomiendan cuatro sesiones.
+					</p>
 					
+					<div class="vertical_line"></div> 					
+                    <img src="img/terapias/con_cuencos.jpg" alt="Image" class="padding_top_mini">          
                 </div>
                 <div class="vertical_line"></div>                
             </div>

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Craneosacral</title>    
+    <title>Water Energy - Aquarelax</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,7 +38,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
+                            <a href="index.php" title="Back to Home">                            
                               <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -49,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="#">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="#">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Terapia Craneosacral</h1>
+                        <h1>Aquarelax</h1>
                     </div>
                 </div>
             </div>            
@@ -116,11 +116,11 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
                     <li>Terapias</li>
                     <li>/</li>
-                    <li>Craneosacral</li>                                       
+                    <li>Aquarelax</li>                                       
                 </ul>
             </div>        
         </div>
@@ -135,122 +135,63 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2>Terapia Craneosacral en el agua</h2>
+                    <h2>Aquarelax</h2>
                     <p>
-						<h5>¿QUÉ ES LA TERAPIA CRANEOSACRAL? </h5>
+						El AquaRelax es un método de Terapia Acuática que fue desarrollada por Oliver W. Möhwald.IAKA ALEMANIA 
                     </p>    
                     <p>
-						Se trata de un sistema de terapia manual suave y profundo, desarrollado por el osteopata estadounidense Dr. 
-						William G. Sutherland a comienzos de siglo.
-                    </p>    
+						AquaRelax trabaja con cojines especiales para el agua y con flotadores largos, que utiliza elementos del Trabajo 
+						Corporal Acuático, ejercicios de respiración y masajes con una profunda conexión.
+					</p>    
                     <p>
-						La Terapia Craneosacral se basa en el principio de la existencia de una pulsación rítmica sutil que emerge 
-						en los tejidos y fluidos del núcleo del cuerpo, que se denomina Impulso Rítmico Craneal.
+						AquaRelax respeta los límites y las capacidades individuales de cada cuerpo y es adecuada para niños, jóvenes y 
+						adultos mayores. 
                     </p> 
 					<p>
-						Este impulso puede ser percibido como un movimiento respiratorio sutil en todas las estructuras que componen el
-						sistema craneosacral (encéfalo, médula espinal, liquido cefalorraquídeo, meninges, huesos craneales, pelvis y sacro), 
-						y se transmite también a todos los órganos y tejidos corporales.
+						AquaRelax estimula el bienestar corporal, social y psíquico; logrando un espacio de encuentro y sana convivencia. 
 					</p>
 					<p>
-						La potencia y calidad con que emerge y se transmite este impulso a todo el organismo determina su estado de salud y vitalidad.
+						AquaRelax es uno de los más efectivos métodos de relajación profunda. 
 					</p>
 					<p>
-						<h5>¿CÓMO FUNCIONA? </h5>
+						<h5>BENEFICIOS:</h5>
 					</p>
 					<p>
-						Durante la sesión el cliente siente el contacto ligero de las manos del terapeuta entrenado en escuchar los movimientos sutiles 
-						del cuerpo, sus ritmos, pulsaciones y patrones de congestión y resistencia. Esta escucha proporciona información importante 
-						sobre el funcionamiento de la persona en su totalidad.
+						Bienestar Corporal: 
+						<br>	•	Relajación de la columna vertebral, articulaciones y músculos. 
+						<br>	•	Mejora la movilidad y coordinación 
+						<br>	•	Aumenta la circulación sanguínea 
+						<br>	•	Disminuye la Frecuencia Respiratoria (FR) y aumenta el Tiempo Inspiratorio (Ti). 
+						<br>	•	Disminuye el dolor 
 					</p>
 					<p>
-						En respuesta a golpes físicos, o tensiones, problemas emocionales, etc. los tejidos del cuerpo se contraen. En ocasiones, esta 
-						contracción - sobre todo si el golpe ha sido fuerte o el trauma emocional intenso - queda contenida en el cuerpo, limitando su 
-						buen funcionamiento, y creando restricciones que provocan problemas que pueden durar años. El movimiento craneosacral las refleja 
-						como áreas de congestión o restricción. Un terapeuta entrenado puede percibirlas, identificar su origen y trabajar con ellas.	
+						Bienestar Psíquico: 
+						<br>	•	Relajación profunda y disminución del stress. 
+						<br>	•	Aumenta la percepción del cuerpo y de los sentidos. 
+						<br>	•	Equilibrio interno. 
+						<br>	•	Refuerza la confianza en sí mismo. 
+						<br>	•	Despierta la vitalidad, el placer y la alegría de vivir 
 					</p>
 					<p>
-						El terapeuta utiliza sus manos para reflejar al cuerpo del cliente el patrón que está conteniendo; al hacerlo, éste tiene la 
-						oportunidad de soltar ese patrón restrictivo y encontrar una nueva forma de organizarse.
+						<h5>DINAMICA:</h5>
 					</p>
 					<p>
-						El complejo cuerpo-mente es un sistema espontáneamente auto organizado que, al recibir la información correcta de su propio 
-						desequilibrio, tiene la capacidad de equilibrarse por sí mismo.
+						El objetivo de cada tratamiento debe ser el ofrecer al receptor la atención, la cercanía
+						y la distancia de tal modo que se sienta libre, seguro, acogido y bien tratado. 
 					</p>
 					<p>
-						Siguiendo este principio fundamental, el terapeuta nunca impone nada sobre el cuerpo de la persona, ni fuerza a su organismo 
-						a hacer algo para lo que todavía no está preparado. Es el mismo sistema del cliente el que lleva la directriz de su proceso 
-						de curación. El terapeuta craneosacral sintoniza con su sabiduría interna y su inteligencia corporal y sigue las pautas que 
-						le indican.
+						El trabajo con los flotadores es fácilmente realizable y permite un suave acercamiento 
+						ofreciéndole el tiempo que necesita para acceder al contacto, de esta forma estimulamos
+						la confianza y una relajación profunda. 
 					</p>
 					<p>
-						Cuando se liberan las tensiones, se libera también la energía que antes se utilizaba para mantener la contracción. Por lo tanto,
-						uno de los beneficios de esta forma de terapia corporal es aumentar nuestro nivel de energía, pudiendo también producir una 
-						relajación más profunda.
+						Además de ello, el trabajo con flotadores permite una gran cantidad de aplicaciones manuales,
+						porque como dadores tenemos disponibles las dos manos libres –al contrario de las otras formas
+						de terapias acuáticas.- Estos factores predestinan la exitosa y efectiva participación de AquaRelax,
+						tanto como en el ámbito de bienestar (Wellness) como en el contexto médico – terapéutico. 
 					</p>	
-					<p>
-						Una parte integral de este trabajo es la toma de conciencia del propio proceso vital.
-					</p>
-					<p>
-						Generalmente es necesario realizar una serie de sesiones para obtener todos los efectos beneficiosos que esta terapia puede ofrecer.
-					</p>
-					<p>
-						<h5>¿ A QUIEN PUEDE BENEFICIAR? </h5>
-					</p>
-					<p>
-						La terapia craneosacral es tan suave y segura que es apropiada para personas de todas las edades, desde ancianos hasta niños y bebés, 
-						así como durante el embarazo y posparto, después de una operación, un accidente o en condiciones de fragilidad.
-					</p>
-					<p>
-						Al tratarse de una terapia global de todo el cuerpo, puede ayudar a las personas con casi cualquier condición, incrementando su vitalidad 
-						y permitiendo utilizar sus propios recursos de autocuración.
-					</p>
-					<p>
-						El énfasis del trabajo radica en acompañar a la persona a restablecer su expresión de salud.
-					</p>
-					<p>
-						La siguiente lista muestra algunas de las condiciones, entre otras que no nombramos, que pueden 
-						responder favorablemente a la terapia craneosacral.
-					</p>
-					<p>
-						<div class="span12">
-							<div class="span6">
-								<br>• Alergias
-								<br>• Alteraciones de la ATM
-								<br>• Ansiedad
-								<br>• Artritis
-								<br>• Artrosis
-								<br>• Asma
-								<br>• Bronquitis
-								<br>• Ciática
-								<br>• Depresión
-								<br>• Diabetes
-								<br>• Dificultad en el embarazo
-								<br>• Dolor articular
-								<br>• Dolor y tensión
-								<br>• Escoliosis
-							</div>
-						
-							<div class="span6">
-								<br>• Estrés
-								<br>• Hernias
-								<br>• Hiper o hipotiroidismo
-								<br>• Hiperactividad
-								<br>• Insomnio
-								<br>• Lesiones deportivas
-								<br>• Lumbago
-								<br>• Migrañas
-								<br>• Neuralgias
-								<br>• Parálisis facial
-								<br>• Problemas digestivos
-								<br>• Secuelas de accidentes
-								<br>• Sinusitis
-								<br>• ...
-							</div>
-						</div>	
-					</p>
-									
-                    <img src="img/terapias/craneosacral.jpg" alt="Image" class="padding_top_mini">          
+					<div class="vertical_line"></div> 					
+                    <img src="img/terapias/aquarelax.jpg" alt="Image" class="padding_top_mini">          
                 </div>
                 <div class="vertical_line"></div>                
             </div>

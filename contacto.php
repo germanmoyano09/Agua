@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Eventos</title>    
+	<title> Water Energy - Contacto </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,8 +38,8 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
-                              <img src="img/logo.png" alt="Logo">
+                            <a href="index.php" title="Back to Home">                            
+                                <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -49,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="#">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="#">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +103,10 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Experiencia Gong</h1>
+                        <h1>Contáctenos</h1>
+                    </div>
+                    <div class="span7">                        
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</p>
                     </div>
                 </div>
             </div>            
@@ -116,11 +119,9 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Terapias</li>
-                    <li>/</li>
-                    <li>Experiencia Gong</li>                                       
+                    <li>Contacto</li>                                       
                 </ul>
             </div>        
         </div>
@@ -129,99 +130,102 @@
         <!-- End content info -->
         <section class="content_info">
             
-            <!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line">
-                    <div class="circle_top"></div>
-                </div>
-                <div class="post">
-                    <h2>Experiencia Gong</h2>
-                    <p>
-						La terapia Gong utiliza la vibración para cubrir todas las frecuencias humanas y centros de energía. Produce beneficios relajantes
-						similares a la meditación, el ejercicio y la respiración, pero sin el esfuerzo físico o mental (gong hace el trabajo). Recomendado 
-						para liberar el estrés, la limpieza de los patrones de pensamiento negativos y fortalecer el sistema nervioso.
-                    </p>    
-                    <p>
-						“Una de las características importantes del gong es el carácter interactivo de los sonidos que produce. El gong produce una nota
-						proyectado contra un espectro de fondo de las notas. Cada nota interactúa con el fondo. Alteran entre sí. Esto crea un patrón 
-						complejo, no lineal que entreteje el sentido de la totalidad, en el sentido de la pieza. Puede sentir esto en su cuerpo cuando usted 
-						escucha el gong. Todo el cuerpo vibra son estimulados por las olas de sonido del  gong. Sea cual sea la relación era entre partes de
-						su cuerpo y todo el cuerpo, es desafiado y transformado por una buena sesión de gong. Los chakras suelen actuar en globailidad 
-						trabajando sobre uno se trabajan sobre todos. El gong ayuda a los chakras de interrelacionar y coordinar. Ellos son liberados de los 
-						patrones emocionales que disminuyen su fluidez y capacidad de respuesta”.
-                    </p>    
-                    <p>
-						Es una excelente terapia para todas las cuestiones relacionadas con el estrés, proporcionando un alivio inmediato y la reducción de la
-						depresión, fatiga, sentimientos de separación, la soledad, la ira, el miedo y la hostilidad, y muchas otras enfermedades causadas por 
-						la falta de equilibrio y armonía en el cuerpo y la mente, ya que tiene un efecto revitalizante sobre el sistema inmune y nervioso.
-                    </p> 
-					<p>
-						Experiencia GONG  es limpieza, liberación, sanación y armonización en todos los niveles.
-					</p>
-					<p>
-						<h5>Beneficios</h5>
-					</p>
-					<p>
-						1-El toque sónico del Gong puede ser un toque de curación, que tiene excelentes resultados con las personas que se recuperan de una amplia 
-						gama de síntomas de condiciones relacionadas con el estrés al dolor crónico y la artritis
-						<br>•	Aliviar el dolor de cuello.
-						<br>•	Dolores de cabeza
-						<br>•	Dificultades menstruales
-						<br>•	Calambres en el tórax y el sistema respiratorio superior
-						<br>•	Reduce el dolor muscular
-						<br>•	Mejora la flexibilidad de las articulaciones y la amplitud de movimiento
-					</p>
-					<p>
-						2 . Crea una relajación profunda, armoniza y restaura  la mente
-					</p>
-					<p>
-						3 . Reducción inmediata en el estrés y la ansiedad
-					</p>
-					<p>
-						4 . Estimula el sistema glandular a un nivel más alto de funcionamiento
-					</p>
-					<p>
-						5 . Estimula la circulación
-					</p>
-					<p>
-						6 . Ayuda en la reorganización de la energía emocional y la sensación de que están atados en el cuerpo
-					</p>
-					<p>
-						7 . Ayuda a romper el comportamiento adictivo
-					</p>
-					<p>
-						8 . Las sesiones ordinarias de acelerar el desarrollo de la sensibilidad intuitiva y visualización
-					</p>
-					<p>
-						9 . Se puede regenerar las neuronas y sus interconexiones
-					</p>
-					<p>
-						10 . Se regenera el sistema nervioso
-					</p>
-					<p>
-						11 . Restaura  el aura	
-					</p>
-					<p>
-						12 . Abre y alinea los chakras
-					</p>
-					<p>
-						13 . Borra la mente subconsciente de los patrones de pensamiento negativo.
-					</p>
-					<p>
-						14. Un acercamiento a la infinitud. 
-					</p>
+            <!-- Info title-->
+            <div class="container padding">
+                <div class="row-fluid animated fadeInUp delay2">
 					
-					<div class="vertical_line"></div> 					
-                    <img src="img/terapias/experiencia_gong.jpg" alt="Image" class="padding_top_mini">          
+					<!--
+					<div class="span4">
+						<div class="row-fluid">
+							<img src="img/contacto/1.jpg" alt="Image">
+						</div>
+					</div>
+						
+					<div class="span4">
+						<div class="row-fluid">
+							<h4>Consultorio</h4>
+							<p> Ozamis no me acuerdo el numero
+							<br>Maipu, Mendoza 5515<br>
+							Tel: +54 261 000 123<br>
+							Cel: +54 261 000 123<br>
+							Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
+							</p>
+						</div>
+					</div>
+				   
+					<div class="span4">
+						<div class="row-fluid">
+							<img src="img/contacto/1.jpg" alt="Image">
+						</div>
+					</div>
+				   -->
+				   
+				   
+				   <div class="span6">
+                       <div class="row-fluid">
+							<div class="span6">
+								<img src="img/contacto/1.jpg" alt="Image">
+							</div>
+							<div class="span6">
+								<h4>Consultorio</h4>
+								<p> Ozamis no me acuerdo el numero
+								<br>Maipu, Mendoza 5515<br>
+								Tel: +54 261 000 123<br>
+								Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
+								</p>
+							</div>
+                       </div>
+                    </div>  
+					
+					
+					
                 </div>
-                <div class="vertical_line"></div>                
             </div>
-            <!-- End Post-->
-	
+            <!-- End Info title-->
+
+            <!-- Info resalt-->
+            <div class="info_resalt border_top">
+                <div class="container">
+
+                    <div class="row-fluid">
+
+                        <div class="span6">
+                            <h3>Formulario de Contacto</h3>
+                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
+                                <input type="text" placeholder="Nombre" name="Name" required>
+                                <input type="email" placeholder="Correo"  name="Email" required>
+                                <input type="number" placeholder="Teléfono"  name="Phone" required>
+                                <textarea placeholder="Mensaje" name="message" required></textarea>
+                                <input type="submit" name="Submit" value="Send Message" class="button">
+                            </form> 
+                            <div id="result"></div>  
+                        </div>
+
+                        <div class="span6">
+                            <h3>Contactenos</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
+                            
+                            <!-- Map area-->
+                            <section class="map_area">
+                                <iframe  src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=9.61761,19.753418&amp;ie=UTF8&amp;hq=&amp;hnear=Nueva+York,+Estados+Unidos&amp;ll=40.614353,-74.005973&amp;spn=0.598524,1.234589&amp;t=m&amp;z=10&amp;output=embed">
+                                </iframe>
+                            </section>
+                            <!-- End Map area-->
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- End Info resalt-->
+
+        </section>
+        <!-- End content info-->
+
         <!-- footer-->
         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>      
+        </footer>        
         <!-- End footer-->
 
    

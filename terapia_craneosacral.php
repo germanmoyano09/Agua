@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Eventos</title>    
+    <title>Water Energy - Craneosacral</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,7 +38,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
+                            <a href="index.php" title="Back to Home">                            
                               <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -49,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="#">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="#">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Terapia con Cuencos</h1>
+                        <h1>Terapia Craneosacral</h1>
                     </div>
                 </div>
             </div>            
@@ -116,11 +116,11 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
                     <li>Terapias</li>
                     <li>/</li>
-                    <li>Terapia con Cuencos</li>                                       
+                    <li>Craneosacral</li>                                       
                 </ul>
             </div>        
         </div>
@@ -135,76 +135,122 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2>Terapia con Cuencos</h2>
+                    <h2>Terapia Craneosacral en el agua</h2>
                     <p>
-						Nadie puede negar los beneficios que los cuencos tibetanos traen a las personas. Su sonido es utilizado en terapias para 
-						sanar a personas que tienen problemas psicológicos o emocionales, también disminuye dolores, y hasta afirman que esta terapia 
-						sonora elimina células cancerosas del organismo.
+						<h5>¿QUÉ ES LA TERAPIA CRANEOSACRAL? </h5>
                     </p>    
                     <p>
-						En las sesiones de cuenco terapia los pacientes deben recostarse y cerrar sus ojos y dejar que las vibraciones armónicas que 
-						producen los cuencos metálicos entren en su cuerpo. Al terminar la sesión su equilibrio físico y emocional quedaran estabilizados.
+						Se trata de un sistema de terapia manual suave y profundo, desarrollado por el osteopata estadounidense Dr. 
+						William G. Sutherland a comienzos de siglo.
                     </p>    
                     <p>
-						¿Pero cómo se produce esto? Es que las vibraciones de los cuencos son tan potentes que alteran el organismo del paciente de una manera 
-						armónica. Durante la sesión el cuenco es colocado en las piernas del paciente, las vibraciones comienzan recorriendo la columna vertebral 
-						y desparramándose por todo el cuerpo hasta llegar al sistema nervioso y órganos. 
+						La Terapia Craneosacral se basa en el principio de la existencia de una pulsación rítmica sutil que emerge 
+						en los tejidos y fluidos del núcleo del cuerpo, que se denomina Impulso Rítmico Craneal.
                     </p> 
 					<p>
-						Los sonidos del cuenco en la terapia hacen que el cerebro del paciente quede en un estado de calma ya que lo ayuda a emitir ondas alfa,
-						es por esto que cuerpo pasa a estar totalmente relajado y la persona se siente bien. Este estado aumenta la cantidad de Linfocitos T 
-						que son los que refuerzan el sistema inmunitario.
+						Este impulso puede ser percibido como un movimiento respiratorio sutil en todas las estructuras que componen el
+						sistema craneosacral (encéfalo, médula espinal, liquido cefalorraquídeo, meninges, huesos craneales, pelvis y sacro), 
+						y se transmite también a todos los órganos y tejidos corporales.
 					</p>
 					<p>
-						<h5>Con los cuencos tibetanos se puede tratar:</h5>
-							<br>- Estados de depresión y angustia.
-							<br>- Contracturas musculares.
-							<br>- Desequilibrios psicológicos.
-							<br>- El estrés y la ansiedad.
-							<br>- Problemas de visión.
-							<br>- Dolores de cabeza.
-							<br>- Estados de ánimo.
-							<br>- Aumento de Defensas del organismo.
-							<br>- Estabilidad mental y emocional.
-							<br>- Aumento de auto confianza.
-							<br>- Controla los estados de insomnio e hiperactividad.
-							<br>- Equilibrio del cuerpo físico, emocional, mental y espiritual.
-							<br>- Enraizamiento planetario y personal.
+						La potencia y calidad con que emerge y se transmite este impulso a todo el organismo determina su estado de salud y vitalidad.
 					</p>
 					<p>
-						<h5>Sesión de Cuencos</h5>
+						<h5>¿CÓMO FUNCIONA? </h5>
 					</p>
 					<p>
-						Una sesión de Cuencos Tibetanos es una fusión de técnicas ancestrales de los Himalayas y herramientas modernas de autoconocimiento que buscan
-						transformar situaciones en nuestras vidas y llegar  rápido al estado deseado.
+						Durante la sesión el cliente siente el contacto ligero de las manos del terapeuta entrenado en escuchar los movimientos sutiles 
+						del cuerpo, sus ritmos, pulsaciones y patrones de congestión y resistencia. Esta escucha proporciona información importante 
+						sobre el funcionamiento de la persona en su totalidad.
 					</p>
 					<p>
-						<h5>Beneficios</h5>
-							<br>•Obtener calma y claridad a nivel mental y emocional.
-							<br>•Limpiar y purificar la energía del cuerpo, de las emociones y de la mente.
-							<br>•Reconstruir a través del sonido los tejidos del aura.
-							<br>•Entrar en estados de total relajación.
-							<br>•Ser consciente de mí y ver con más claridad la situación por la que se está atravesando.
-							<br>•Aumento de creatividad, concentración y capacidad de acción.
-
+						En respuesta a golpes físicos, o tensiones, problemas emocionales, etc. los tejidos del cuerpo se contraen. En ocasiones, esta 
+						contracción - sobre todo si el golpe ha sido fuerte o el trauma emocional intenso - queda contenida en el cuerpo, limitando su 
+						buen funcionamiento, y creando restricciones que provocan problemas que pueden durar años. El movimiento craneosacral las refleja 
+						como áreas de congestión o restricción. Un terapeuta entrenado puede percibirlas, identificar su origen y trabajar con ellas.	
 					</p>
 					<p>
-						<h5>Objetivos</h5>
-							<br>•Encontrar un espacio interno desde la calma y la sanación.
-							<br>•Tener un reconocimiento de lo que soy y de lo que me está sucediendo.
-							<br>•Desarrollar el autoconocimiento y la automotivación.
-							<br>•Despertar la energía de la acción para el cambio y transformar tu vida de forma rápida y práctica.
+						El terapeuta utiliza sus manos para reflejar al cuerpo del cliente el patrón que está conteniendo; al hacerlo, éste tiene la 
+						oportunidad de soltar ese patrón restrictivo y encontrar una nueva forma de organizarse.
 					</p>
 					<p>
-						<h5>Método</h5>
+						El complejo cuerpo-mente es un sistema espontáneamente auto organizado que, al recibir la información correcta de su propio 
+						desequilibrio, tiene la capacidad de equilibrarse por sí mismo.
 					</p>
 					<p>
-						Para empezar una terapia con cuencos, es importante saber cuál es el propósito y que es lo que se quiere 
-						trabajar (aspectos emocionales, físicos o mentales). Se recomiendan cuatro sesiones.
+						Siguiendo este principio fundamental, el terapeuta nunca impone nada sobre el cuerpo de la persona, ni fuerza a su organismo 
+						a hacer algo para lo que todavía no está preparado. Es el mismo sistema del cliente el que lleva la directriz de su proceso 
+						de curación. El terapeuta craneosacral sintoniza con su sabiduría interna y su inteligencia corporal y sigue las pautas que 
+						le indican.
 					</p>
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/terapias/con_cuencos.jpg" alt="Image" class="padding_top_mini">          
+					<p>
+						Cuando se liberan las tensiones, se libera también la energía que antes se utilizaba para mantener la contracción. Por lo tanto,
+						uno de los beneficios de esta forma de terapia corporal es aumentar nuestro nivel de energía, pudiendo también producir una 
+						relajación más profunda.
+					</p>	
+					<p>
+						Una parte integral de este trabajo es la toma de conciencia del propio proceso vital.
+					</p>
+					<p>
+						Generalmente es necesario realizar una serie de sesiones para obtener todos los efectos beneficiosos que esta terapia puede ofrecer.
+					</p>
+					<p>
+						<h5>¿ A QUIEN PUEDE BENEFICIAR? </h5>
+					</p>
+					<p>
+						La terapia craneosacral es tan suave y segura que es apropiada para personas de todas las edades, desde ancianos hasta niños y bebés, 
+						así como durante el embarazo y posparto, después de una operación, un accidente o en condiciones de fragilidad.
+					</p>
+					<p>
+						Al tratarse de una terapia global de todo el cuerpo, puede ayudar a las personas con casi cualquier condición, incrementando su vitalidad 
+						y permitiendo utilizar sus propios recursos de autocuración.
+					</p>
+					<p>
+						El énfasis del trabajo radica en acompañar a la persona a restablecer su expresión de salud.
+					</p>
+					<p>
+						La siguiente lista muestra algunas de las condiciones, entre otras que no nombramos, que pueden 
+						responder favorablemente a la terapia craneosacral.
+					</p>
+					<p>
+						<div class="span12">
+							<div class="span6">
+								<br>• Alergias
+								<br>• Alteraciones de la ATM
+								<br>• Ansiedad
+								<br>• Artritis
+								<br>• Artrosis
+								<br>• Asma
+								<br>• Bronquitis
+								<br>• Ciática
+								<br>• Depresión
+								<br>• Diabetes
+								<br>• Dificultad en el embarazo
+								<br>• Dolor articular
+								<br>• Dolor y tensión
+								<br>• Escoliosis
+							</div>
+						
+							<div class="span6">
+								<br>• Estrés
+								<br>• Hernias
+								<br>• Hiper o hipotiroidismo
+								<br>• Hiperactividad
+								<br>• Insomnio
+								<br>• Lesiones deportivas
+								<br>• Lumbago
+								<br>• Migrañas
+								<br>• Neuralgias
+								<br>• Parálisis facial
+								<br>• Problemas digestivos
+								<br>• Secuelas de accidentes
+								<br>• Sinusitis
+								<br>• ...
+							</div>
+						</div>	
+					</p>
+									
+                    <img src="img/terapias/craneosacral.jpg" alt="Image" class="padding_top_mini">          
                 </div>
                 <div class="vertical_line"></div>                
             </div>

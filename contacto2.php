@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Aquarelax</title>    
+	<title> Water Energy - Contacto </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,8 +38,8 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
-                              <img src="img/logo.png" alt="Logo">
+                            <a href="index.php" title="Back to Home">                            
+                                <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -49,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="#">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="#">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +103,10 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Aquarelax</h1>
+                        <h1>Contáctenos</h1>
+                    </div>
+                    <div class="span7">                        
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</p>
                     </div>
                 </div>
             </div>            
@@ -116,11 +119,9 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Terapias</li>
-                    <li>/</li>
-                    <li>Aquarelax</li>                                       
+                    <li>Contacto</li>                                       
                 </ul>
             </div>        
         </div>
@@ -129,78 +130,102 @@
         <!-- End content info -->
         <section class="content_info">
             
-            <!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line">
-                    <div class="circle_top"></div>
+            <!-- Info title-->
+            <div class="container padding">
+                <div class="row-fluid animated fadeInUp delay2">
+					
+					<!--
+					<div class="span4">
+						<div class="row-fluid">
+							<img src="img/contacto/1.jpg" alt="Image">
+						</div>
+					</div>
+						
+					<div class="span4">
+						<div class="row-fluid">
+							<h4>Consultorio</h4>
+							<p> Ozamis no me acuerdo el numero
+							<br>Maipu, Mendoza 5515<br>
+							Tel: +54 261 000 123<br>
+							Cel: +54 261 000 123<br>
+							Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
+							</p>
+						</div>
+					</div>
+				   
+					<div class="span4">
+						<div class="row-fluid">
+							<img src="img/contacto/1.jpg" alt="Image">
+						</div>
+					</div>
+				   -->
+				   
+				   
+				   <div class="span12">
+                       <div class="row-fluid">
+							<div class="span6">
+								<img src="img/contacto/1.jpg" alt="Image">
+							</div>
+							<div class="span6">
+								<h3>Contactenos</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
+                            
+							</div>
+                       </div>
+                    </div>  
+					
+					
+					
                 </div>
-                <div class="post">
-                    <h2>Aquarelax</h2>
-                    <p>
-						El AquaRelax es un método de Terapia Acuática que fue desarrollada por Oliver W. Möhwald.IAKA ALEMANIA 
-                    </p>    
-                    <p>
-						AquaRelax trabaja con cojines especiales para el agua y con flotadores largos, que utiliza elementos del Trabajo 
-						Corporal Acuático, ejercicios de respiración y masajes con una profunda conexión.
-					</p>    
-                    <p>
-						AquaRelax respeta los límites y las capacidades individuales de cada cuerpo y es adecuada para niños, jóvenes y 
-						adultos mayores. 
-                    </p> 
-					<p>
-						AquaRelax estimula el bienestar corporal, social y psíquico; logrando un espacio de encuentro y sana convivencia. 
-					</p>
-					<p>
-						AquaRelax es uno de los más efectivos métodos de relajación profunda. 
-					</p>
-					<p>
-						<h5>BENEFICIOS:</h5>
-					</p>
-					<p>
-						Bienestar Corporal: 
-						<br>	•	Relajación de la columna vertebral, articulaciones y músculos. 
-						<br>	•	Mejora la movilidad y coordinación 
-						<br>	•	Aumenta la circulación sanguínea 
-						<br>	•	Disminuye la Frecuencia Respiratoria (FR) y aumenta el Tiempo Inspiratorio (Ti). 
-						<br>	•	Disminuye el dolor 
-					</p>
-					<p>
-						Bienestar Psíquico: 
-						<br>	•	Relajación profunda y disminución del stress. 
-						<br>	•	Aumenta la percepción del cuerpo y de los sentidos. 
-						<br>	•	Equilibrio interno. 
-						<br>	•	Refuerza la confianza en sí mismo. 
-						<br>	•	Despierta la vitalidad, el placer y la alegría de vivir 
-					</p>
-					<p>
-						<h5>DINAMICA:</h5>
-					</p>
-					<p>
-						El objetivo de cada tratamiento debe ser el ofrecer al receptor la atención, la cercanía
-						y la distancia de tal modo que se sienta libre, seguro, acogido y bien tratado. 
-					</p>
-					<p>
-						El trabajo con los flotadores es fácilmente realizable y permite un suave acercamiento 
-						ofreciéndole el tiempo que necesita para acceder al contacto, de esta forma estimulamos
-						la confianza y una relajación profunda. 
-					</p>
-					<p>
-						Además de ello, el trabajo con flotadores permite una gran cantidad de aplicaciones manuales,
-						porque como dadores tenemos disponibles las dos manos libres –al contrario de las otras formas
-						de terapias acuáticas.- Estos factores predestinan la exitosa y efectiva participación de AquaRelax,
-						tanto como en el ámbito de bienestar (Wellness) como en el contexto médico – terapéutico. 
-					</p>	
-					<div class="vertical_line"></div> 					
-                    <img src="img/terapias/aquarelax.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
             </div>
-            <!-- End Post-->
-	
+            <!-- End Info title-->
+
+            <!-- Info resalt-->
+            <div class="info_resalt border_top">
+                <div class="container">
+
+                    <div class="row-fluid">
+
+                        <div class="span6">
+                            <h3>Formulario de Contacto</h3>
+                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
+                                <input type="text" placeholder="Nombre" name="Name" required>
+                                <input type="email" placeholder="Correo"  name="Email" required>
+                                <input type="number" placeholder="Teléfono"  name="Phone" required>
+                                <textarea placeholder="Mensaje" name="message" required></textarea>
+                                <input type="submit" name="Submit" value="Send Message" class="button">
+                            </form> 
+                            <div id="result"></div>  
+                        </div>
+
+                        <div class="span6">
+                            <h4>Consultorio</h4>
+								<p> Ozamis 123 - Maipu, Mendoza 5515<br>
+								Tel: +54 261 000 123<br>
+								Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
+								</p>
+							
+                            <!-- Map area-->
+                            <section class="map_area">
+                                <iframe  src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=9.61761,19.753418&amp;ie=UTF8&amp;hq=&amp;hnear=Nueva+York,+Estados+Unidos&amp;ll=40.614353,-74.005973&amp;spn=0.598524,1.234589&amp;t=m&amp;z=10&amp;output=embed">
+                                </iframe>
+                            </section>
+                            <!-- End Map area-->
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- End Info resalt-->
+
+        </section>
+        <!-- End content info-->
+
         <!-- footer-->
         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>      
+        </footer>        
         <!-- End footer-->
 
    

@@ -38,7 +38,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
+                            <a href="index.php" title="Back to Home">                            
 								<img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -49,33 +49,33 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
@@ -83,11 +83,11 @@
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -119,7 +119,7 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
                     <li>Eventos</li>                                       
                 </ul>
@@ -136,7 +136,7 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2><a href="single_post.html">Nombre del  evento con foto</a></h2>
+                    <h2><a href="single_post.php">Nombre del  evento con foto</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>          
                     <img src="img/eventos/4.jpg" alt="Image" class="padding_top_mini">          
@@ -148,7 +148,7 @@
             <!-- Info resalt-->
             <div class="info_resalt border_top">
                 <div class="container post">
-                     <h2><a href="single_post.html"><span>This</span> is an example of  post</a></h2>
+                     <h2><a href="single_post.php"><span>This</span> is an example of  post</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>          
                     <img src="img/eventos/6.jpg" alt="Image" class="padding_top_mini"> 
@@ -160,7 +160,7 @@
             <div class="row-fluid animated fadeInUp delay2">
                 <div class="vertical_line"></div>
                 <div class="post">
-                    <h2><a href="single_post.html">Nombre del  evento con foto</a></h2>
+                    <h2><a href="single_post.php">Nombre del  evento con foto</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>          
                     <img src="img/eventos/4.jpg" alt="Image" class="padding_top_mini">          
@@ -172,7 +172,7 @@
             <!-- Info resalt-->
             <div class="info_resalt border_top">
                 <div class="container post">
-                     <h2><a href="single_post.html"><span>This</span> is an example of  post</a></h2>
+                     <h2><a href="single_post.php"><span>This</span> is an example of  post</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>          
                     <img src="img/eventos/6.jpg" alt="Image" class="padding_top_mini"> 

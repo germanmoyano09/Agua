@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Ai chi</title>    
+	<title> Water Energy - Suscripción </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,6 +29,16 @@
    
   </head>
   <body> 
+  
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+  
         <!-- Header-->
         <header class="section_title">            
             <!-- nav_logo-->
@@ -38,8 +48,8 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
-                              <img src="img/logo.png" alt="Logo">
+                            <a href="index.php" title="Back to Home">                            
+                                <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -49,45 +59,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="#">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_watsu.php">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="suscripcion.html">SUSCRIPCIÓN</a>
+									<a href="#">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -103,7 +113,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Ai chi</h1>
+                        <h1>Suscripción</h1>
                     </div>
                 </div>
             </div>            
@@ -116,54 +126,63 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Terapias</li>
-                    <li>/</li>
-                    <li>Ai chi</li>                                       
+                    <li>Suscripción</li>                                       
                 </ul>
             </div>        
         </div>
         <!-- End crumbs-->
 
-        <!-- End content info -->
-        <section class="content_info">
-            
-            <!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line">
-                    <div class="circle_top"></div>
+        <!-- Info title-->
+            <div class="container padding">
+                <div class="row-fluid animated fadeInUp delay2">
+                    <div class="span12">
+                        <h3>Suscripción</h3>
+					    <p> 
+							Si te suscribes a nuestro Boletín de Noticas podrás estar informado puntualmente de todas las actividades que se realizarán a lo
+							largo del año. Por favor, rellena todos los campos para que te podamos dar un mejor servicio.
+						</p>
+						
+					</div>
                 </div>
-                <div class="post">
-                    <h2>Ai chi</h2>
-                    <p>
-						Es ideal para crear una mejor amplitud de movimiento y la movilidad. Agua, el movimiento y la música se utilizan para fomentar 
-						un estado de conciencia relajada. Ai Chi es un trabajo corporal acuático termal que aprovecha las propiedades de las aguas, el 
-						fomento de la amplitud de movimiento, mientras que el equilibrio difícil (con seguridad) Facilitar y fuerza de la base y la 
-						estabilidad. La serie de movimientos es simple, pero eficaz y de meditación se convierte en Cuando realiza repetidamente y 
-						coordinados con la respiración. Ai Chi es recomendado ampliamente especialmente para la alta tensión y otros trastornos que 
-						limitan el movimiento o la energía y el tiempo disponible, ya que es una actividad importante en nuestro programa de bienestar,
-						ya que puede mejorar la salud física y mental, y reducir al mínimo los efectos de los síntomas de estrés. Ai Chi puede ser una 
-						manera de conseguir su cuerpo en movimiento, aumentar su energía, y promover la flexibilidad y la fuerza. Ai Chi puede ayudar a 
-						reducir la debilidad muscular, dolor generalizado y rigidez en las articulaciones. El agua caliente Permite movimiento lento y 
-						relajado y aumento del flujo de sangre a las articulaciones, tendones, músculos y ligamentos. También se puede reducir al mínimo 
-						los problemas asociados con condiciones tales como: la poli mialgia reumática y la artritis reumatoide.
-                    </p>    
-                    <p>
-						En términos de salud mental, Ai Chi puede reducir al mínimo los problemas: por ejemplo: ansiedad fatiga depresión
-                    </p>    
-                    					
-					<div class="vertical_line"></div> 					
-                    <img src="img/terapias/ai_chi.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
             </div>
-            <!-- End Post-->
-	
-        <!-- footer-->
+            <!-- End Info title-->
+            
+            
+            <!-- Info resalt-->
+            <div class="info_resalt border_top">
+                <div class="container">
+
+                    <div class="row-fluid">
+
+                        <div class="span6">
+                            <h3>Formulario de suscripción</h3>
+                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
+                                <input type="text" placeholder="Nombre" name="Name" required>
+								<input type="text" placeholder="Apellido" name="LastName" required>
+                                <input type="email" placeholder="Correo"  name="Email" required>
+                                <input type="text" placeholder="Telefono" name="LastName" required>
+                                
+                                <input type="submit" name="Submit" value="Send Message" class="button">
+                            </form> 
+                            <div id="result"></div>  
+                        </div>
+
+                        <div class="span6">
+							<div class="fb-like-box" data-href="https://www.facebook.com/pages/Javier-Gonzalez-Water-Energy/168603496669439?fref=ts" data-width="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+						</div>
+
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- End Info resalt-->
+
+			<!-- footer-->
         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>      
+        </footer>        
         <!-- End footer-->
 
    

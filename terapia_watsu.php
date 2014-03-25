@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<title> Water Energy - Suscripción </title>
+    <title>Water Energy - Watsu</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,16 +29,6 @@
    
   </head>
   <body> 
-  
-  <div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-  
         <!-- Header-->
         <header class="section_title">            
             <!-- nav_logo-->
@@ -48,8 +38,8 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.html" title="Back to Home">                            
-                                <img src="img/logo.png" alt="Logo">
+                            <a href="index.php" title="Back to Home">                            
+                              <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -59,45 +49,45 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.html">INICIO</a>
+                                    <a href="index.php">INICIO</a>
                                 </li>
                                 
 								 <li>
-                                    <a href="informacion.html">INFORMACIÓN</a>
+                                    <a href="informacion.php">INFORMACIÓN</a>
                                 </li>
 								
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.html">JAHARA</a></li>
-										<li><a href="terapia_watsu.html">WATSU</a></li>
-										<li><a href="terapia_aquarelax.html">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.html">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.html">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.html">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.html">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.html">AI CHI</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
+										<li><a href="#">WATSU</a></li>
+										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
+										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
+										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
+										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
+										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 										
 										<!--
-											<li><a href="single_post.html"></a></li>
+											<li><a href="single_post.php"></a></li>
 										-->
 									</ul>
 								</li>
                                 
 								<li>
-									<a href="#">SUSCRIPCIÓN</a>
+									<a href="suscripcion.php">SUSCRIPCIÓN</a>
 								</li>
 								
 								<li>
-									<a href="eventos.html">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
-									<a href="links.html">LINKS</a>
+									<a href="links.php">LINKS</a>
 								</li>
 										
 								<li>
-									<a href="contacto.html">CONTACTO</a>
+									<a href="contacto.php">CONTACTO</a>
 								</li>
                             </ul>
                             <!-- End Menu-->
@@ -113,7 +103,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Suscripción</h1>
+                        <h1>Watsu</h1>
                     </div>
                 </div>
             </div>            
@@ -126,63 +116,59 @@
         <div class="crumbs border_bottom">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Suscripción</li>                                       
+                    <li>Terapias</li>
+                    <li>/</li>
+                    <li>Watsu</li>                                       
                 </ul>
             </div>        
         </div>
         <!-- End crumbs-->
 
-        <!-- Info title-->
-            <div class="container padding">
-                <div class="row-fluid animated fadeInUp delay2">
-                    <div class="span12">
-                        <h3>Suscripción</h3>
-					    <p> 
-							Si te suscribes a nuestro Boletín de Noticas podrás estar informado puntualmente de todas las actividades que se realizarán a lo
-							largo del año. Por favor, rellena todos los campos para que te podamos dar un mejor servicio.
-						</p>
-						
-					</div>
-                </div>
-            </div>
-            <!-- End Info title-->
+        <!-- End content info -->
+        <section class="content_info">
             
-            
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container">
-
-                    <div class="row-fluid">
-
-                        <div class="span6">
-                            <h3>Formulario de suscripción</h3>
-                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
-                                <input type="text" placeholder="Nombre" name="Name" required>
-								<input type="text" placeholder="Apellido" name="LastName" required>
-                                <input type="email" placeholder="Correo"  name="Email" required>
-                                <input type="text" placeholder="Telefono" name="LastName" required>
-                                
-                                <input type="submit" name="Submit" value="Send Message" class="button">
-                            </form> 
-                            <div id="result"></div>  
-                        </div>
-
-                        <div class="span6">
-							<div class="fb-like-box" data-href="https://www.facebook.com/pages/Javier-Gonzalez-Water-Energy/168603496669439?fref=ts" data-width="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-						</div>
-
-                    </div>
-                   
+            <!-- Post-->
+            <div class="row-fluid animated fadeInUp delay2">
+                <div class="vertical_line">
+                    <div class="circle_top"></div>
                 </div>
+                <div class="post">
+                    <h2>Watsu</h2>
+                    <p>
+						WATSU es la unión de dos palabras: Water (agua) y Shiatsu (milenaria técnica japonesa que apoya procesos de sanación), es decir 
+						Shiatsu en el agua.
+                    </p>    
+                    <p>
+						Tener el cuerpo sumergido en el agua, permite aprovechar el estado de ingravidez para liberar los músculos y articulaciones. El 
+						contacto con el agua genera entonces una libertad de movimientos que hace que esta técnica de masaje sea una de las más relajantes 
+						que existe. Podemos decir, en su nivel mas simple, que es un masaje flotante. 
+                    </p>    
+                    <p>
+						Con la ayuda de un terapeuta, el cuerpo del paciente flota cómodamente en una piscina con agua temperada (34º a 36º) mientras los
+						músculos son masajeados, las articulaciones movilizadas, los tejidos son estirados, los canales energéticos abiertos y el cuerpo es
+						agradablemente mecido por medio del agua. La mayoría de las personas opina que el Watsu es totalmente relajante. Los kinesiólogos, 
+						masajistas y otros practicantes de trabajo corporal alrededor del mundo, lo usan para tratar el estrés, dolores crónicos, artritis, 
+						fibromialgia, desórdenes del sueño y muchos otros malestares.
+					</p>	
+					<p>
+						Una característica que diferencia al Watsu del masaje y de otras terapias corporales, es que da la oportunidad de trascender lo físico.
+						Porque con una relajación tan profundamente como es posible, en la calidez e ingravidez del Watsu, la mente puede dejar de “parlotear”
+						y cuando la mente y el cuerpo están en paz, lo que queda es la esencia fundamental del “Ser”.
+					</p>
+                    <div class="vertical_line"></div> 
+					<img src="img/terapias/watsu.jpg" alt="Image" class="padding_top_mini">          
+					
+                </div>
+                <div class="vertical_line"></div>                
             </div>
-            <!-- End Info resalt-->
-
-			<!-- footer-->
+            <!-- End Post-->
+	
+        <!-- footer-->
         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>        
+        </footer>      
         <!-- End footer-->
 
    
