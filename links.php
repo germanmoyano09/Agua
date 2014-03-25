@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php 
+	include("php/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -128,47 +139,40 @@
         <!-- End crumbs-->
 
         <!-- End content info -->
-        <section class="content_info">
-            
-            <!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line">
-                    <div class="circle_top"></div>
-                </div>
-                <div class="post">
-                    <h3>Nombre de la pagina</h3>
-					<p>
-						link: www.ejemplo.com.ar
-                    </p> 					   
-                </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Post-->
+       
+	   <!-- Links-->
+		<div class="row-fluid animated fadeInUp delay2">
+		
+	    <section class="content_info">
+			<div class="vertical_line">
+				<div class="circle_top"></div>
+			</div>
 			
-			<!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="post">
-                    <h3>Nombre de la pagina</h3>
+			<?php 
+				$sql = "SELECT nombre,link FROM link ORDER BY id DESC";
+				$consulta = mysqli_query($conexion, $sql);
+				$error = "";
+				if ($consulta){
+					while ($link=mysqli_fetch_array($consulta)){
+			?>
+				<div class="post">
+					<a href="http://<?php echo $link['link']; ?>"  target="_blank"><h3><?php echo $link['nombre']; ?></h3></a>
 					<p>
-						link: www.ejemplo.com.ar
-                    </p> 					
-                </div>
+						link: <a href="http://<?php echo $link['link']; ?>"  target="_blank"> <?php echo $link['link']; ?></a>
+					</p>	
+				</div>
                 <div class="vertical_line"></div>                
-            </div>
-            <!-- End Post-->
-	
-			<!-- Post-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="post">
-                    <h3>Nombre de la pagina</h3>
-					<p>
-						link: www.ejemplo.com.ar
-                    </p> 					
-                </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Post-->
+                        
+			<?php 
+					}
+				}else{
+					$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+				}
+			?>			
 			
+		</div>	
+		<!-- End Post-->
+		
         <!-- footer-->
         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
