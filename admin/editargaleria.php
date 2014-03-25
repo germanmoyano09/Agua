@@ -43,8 +43,12 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                      <i class="icon-angle-right"></i>
                   </li>
                   <li>
-                     <a href="galeria.php">Galería</a>
+                     <a href="galeria.php">Galeria</a>
                      <i class="icon-angle-right"></i>
+			      </li>
+				  <li>
+                     <a href="#">Editar Foto</a>
+                     <i class="icon-angle-right"></i>				  
                </ul>
                <!-- END PAGE TITLE & BREADCRUMB-->
             </div>
@@ -56,61 +60,12 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                <!-- TABLA EDITABLE-->
                <div class="portlet box red">
                   <div class="portlet-title">
-                     <div class="caption"><i class="icon-list-alt"></i>Galería de Fotos</div>
+                     <div class="caption"><i class="icon-list-alt"></i>Fotos</div>
                   </div>
                   <div class="portlet-body">
-                     <div class="table-toolbar">
-
-						<div class="btn-group">
-                           <a class="btn blue" data-toggle="modal" href="#galeria">
-                           Agregar Foto <i class="icon-plus"></i>
-                           </a>
-                        </div>
-					
-                     </div>
-                     <table class="table table-striped table-bordered table-hover" id="tabla_flyers">
-                        <thead>
-                           <tr>
-							  <th>Posición</th>
-                              <th>Nombre</th>
-                              <th>Editar</th>
-							  <th>Eliminar</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-							<?php 
-							$sql = "SELECT nombre, id, posicion FROM galeria ORDER BY posicion ASC";
-							$consulta = mysqli_query($conexion, $sql);
-							$error = "";
-							if ($consulta){
-								while ($galeria=mysqli_fetch_array($consulta)){
-								?>
-									<tr class="odd gradeX">
-									  <td><?php echo $galeria['posicion']; ?></td>
-									  <td><?php echo $galeria['nombre']; ?></td>
-									  <td><a href="editargaleria.php?id=<?php echo $galeria['id'];?>">Editar</a></td>
-									  <td><a id="borrargaleria" galeria-id="<?php echo $galeria['id'];?>" href="#">Borrar</a></td>
-								    </tr>
-								<?php 
-								}
-							}else{
-								$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
-							}
-							?>
-                        </tbody>
-                     </table>
-				 </div>
-				  
-				  <!-- MODAL LUGAR -->
-				  <div class="modal fade" id="galeria" tabindex="-1" role="galeria" aria-hidden="true">
-					<div class="modal-dialog">
-					   <div class="modal-content">
-						  <div class="modal-header">
-							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-							 <h4 class="modal-title">Agregar Foto</h4>
-						  </div>
-						  <!-- BEGIN FORM-->
-						  <form action="#" id="agregar_galeria" class="form-horizontal">
+					 
+					  <!-- BEGIN FORM-->
+						  <form action="actualizargaleria.php" id="editar_galeria" class="form-horizontal">
 						  <div class="modal-body">
 								<div class="form-body">
 								   <div class="alert alert-danger display-hide">
@@ -119,27 +74,54 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 								   </div>
 								   <div class="alert alert-success display-hide">
 									  <button class="close" data-dismiss="alert"></button>
-									  Foto Agregada!
+									  Foto Modificada!
 								   </div>
 								   <div class="form-group">
 									  <label class="control-label col-md-4">Nombre<span class="required">* </span></label>
 									  <div class="col-md-8">
-										 <input type="text" name="nombre" data-required="1" class="form-control"/>
+										<?php 
+											$sql    = "SELECT nombre, imagen, posicion, version FROM galeria WHERE id = '".$_GET['id']."'";
+											$result = mysqli_query($conexion, $sql);
+											$error  = "";
+											if($result){
+												while ($galeria=mysqli_fetch_array($result)){
+												?>
+												<input type="text" name="nombre" data-required="1" class="form-control" value="<?php echo $galeria['nombre']; ?>"/>
+												<input type="hidden" name="id" value="<?php echo $_GET['id']; ?>"/>
+												<input type="hidden" name="version" value="<?php echo $galeria['version']; ?>"/>
 									  </div>
 								   </div>
+								   
+								 						   
+								    <div class="form-group">
+									  <label class="control-label col-md-4">Posición<span class="required">* </span></label>
+									  <div class="col-md-8">
+											<input type="text" name="posicion" data-required="1" class="form-control" value="<?php echo $galeria['posicion']; ?>"/>
+									 </div>
+								   </div>
+								   
 								   <div class="form-group">
-									  <label class="control-label col-md-4">Imágen de Portada<span class="required">*</span></label>
+									  <label class="control-label col-md-4">Imágen de Portada <span class="required">*</span></label>
 									  <div class="col-md-8">
 										 <div class="fileupload fileupload-new" data-provides="fileupload">
 											<div class="fileupload-new thumbnail" style="width: 300px; height: 200px;">
-											   <img src="http://www.placehold.it/600x400/EFEFEF/AAAAAA" alt="" />
+											   <img src="../img/inicio/galeria/<?php echo $galeria['imagen']; ?>" alt="" />
+																						
+											<?php 
+												}
+											}else{
+												$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+											}
+											?>
+											
 											</div>
-											<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 910px; max-height: 440px; line-height: 20px;"></div>
+											<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 300px; max-height: 200px; line-height: 20px;">
+											</div>
 											<div id="contenedor_imagen_upload">
 											   <span class="btn default btn-file">
 											   <span class="fileupload-new"><i class="icon-paper-clip"></i> Seleccione una imágen</span>
 											   <span class="fileupload-exists"><i class="icon-undo"></i> Cambiar</span>
-											   <input type="file" id="fotoportada" class="default" name="fotoportada"/>
+											   <input type="file" id="imagen" class="default" name="imagen"/>
 											   </span>
 											   <a href="#" class="btn red fileupload-exists" data-dismiss="fileupload"><i class="icon-trash"></i> Eliminar</a>
 											</div>
@@ -155,31 +137,33 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 								</div>
 						  </div>
 						  <div class="modal-footer">
-							 <button type="button" class="btn default" data-dismiss="modal">Cerrar</button>
-							 <button type="submit" class="btn blue" id="btn_enviar">Agregar</button>
+							 <a href="galeria.php" type="button" class="btn default">Volver</a>
+							 <button type="submit" class="btn blue" id="btn_enviar">Guardar</button>
 						  </div>
 						  </form>
 						  <!-- END FORM-->
-					   </div>
-					   <!-- /.modal-content -->
-					</div>
-					<!-- /.modal-dialog -->
-				  </div>
-				  <!-- FIN MODAL LUGAR -->
+					 
+					 
+                  </div>
 				  
+
 				  <script type="text/javascript">
-					function enviarFormFlyer(){
+					function enviarFormGaleria(){
 					  $('#ajaxloader').show();
 					  $('#btn_enviar').addClass('disabled');
 					
-					  var archivos = document.getElementById("fotoportada");//Damos el valor del input tipo file
+					  var archivos = document.getElementById("imagen");//Damos el valor del input tipo file
 					  var archivo = archivos.files; //Obtenemos el valor del input (los arcchivos) en modo de arreglo
 
 					  //El objeto FormData nos permite crear un formulario pasandole clave/valor para poder enviarlo, este tipo de objeto ya tiene la propiedad multipart/form-data para poder subir archivos
 					  var datosForm = new FormData();
 					  
 					  //Cargamos el nombre elegido
-					  datosForm.append('nombre',$("#agregar_galeria input[name=nombre]").val());
+					  datosForm.append('nombre',$("#editar_galeria input[name=nombre]").val());
+					  datosForm.append('id',$("#editar_galeria input[name=id]").val());
+					  datosForm.append('version',$("#editar_galeria input[name=version]").val());
+					  datosForm.append('posicion',$("#editar_galeria input[name=posicion]").val());
+
 					  //Como no sabemos cuantos archivos subira el usuario, iteramos la variable y al
 					  //objeto de FormData con el metodo "append" le pasamos calve/valor, usamos el indice "i" para
 					  //que no se repita, si no lo usamos solo tendra el valor de la ultima iteracion
@@ -193,7 +177,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					  datosForm.append('archivo',archivo[0]);
 					  
 					  $.ajax({
-						url:'agregargaleria.php', //Url a donde la enviaremos
+						url:'actualizargaleria.php', //Url a donde la enviaremos
 						type:'POST', //Metodo que usaremos
 						contentType:false, //Debe estar en false para que pase el objeto sin procesar
 						data:datosForm, //Le pasamos el objeto que creamos con los archivos
@@ -203,10 +187,10 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 						if(msg==0){
 							$('#ajaxloader').hide();
 							$('#btn_enviar').removeClass('disabled');
-							$('.alert-success', $('#agregar_galeria')).show();//Muestra mensaje de lugar agregado
-							alert('Foto agregada.');
-							$('#galeria').modal('hide')
-							location.reload();
+							$('.alert-success', $('#editar_galeria')).show();//Muestra mensaje de lugar agregado
+							alert('Foto Modificada.');
+							//alert(msg); //Mostrara lo devuelto por el archivo php
+							location.href="galeria.php";
 						}else{
 							$('#ajaxloader').hide();
 							$('#btn_enviar').removeClass('disabled');
@@ -259,14 +243,12 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
    <!-- END PAGE LEVEL PLUGINS -->
    <!-- BEGIN PAGE LEVEL SCRIPTS -->
    <script src="assets/scripts/app.js"></script>
-   <script src="assets/scripts/tabla-galeria.js"></script>
-   <script src="assets/scripts/form-validation-galeria.js"></script>  
+   <script src="assets/scripts/form-validation-galeria-editar.js"></script>  
    <script src="assets/scripts/form-components.js"></script>        
    <!-- END PAGE LEVEL SCRIPTS -->
    <script>
       jQuery(document).ready(function() {       
          App.init();
-         TablaLugares.init();
          FormComponents.init();
          FormValidation.init();
       });
