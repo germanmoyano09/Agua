@@ -83,21 +83,18 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
-					 0
-                        <?php 
-						/*
-							$sql = "SELECT * FROM album";
+					    <?php 
+							$sql = "SELECT * FROM galeria";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
-						*/
 						?>
                      </div>
                      <div class="desc">                           
                         Galería Inicio 
                      </div>
                   </div>
-                  <a class="more" href="fotos.php">
+                  <a class="more" href="galeria.php">
                   Administrar <i class="m-icon-swapright m-icon-white"></i>
                   </a>                 
                </div>

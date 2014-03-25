@@ -62,7 +62,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                      <div class="table-toolbar">
 
 						<div class="btn-group">
-                           <a class="btn blue" data-toggle="modal" href="#flyer">
+                           <a class="btn blue" data-toggle="modal" href="#galeria">
                            Agregar Foto <i class="icon-plus"></i>
                            </a>
                         </div>
@@ -79,17 +79,17 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                         </thead>
                         <tbody>
 							<?php 
-							$sql = "SELECT nombre, id, posicion FROM flyer ORDER BY posicion ASC";
+							$sql = "SELECT nombre, id, posicion FROM galeria ORDER BY posicion ASC";
 							$consulta = mysqli_query($conexion, $sql);
 							$error = "";
 							if ($consulta){
-								while ($flyer=mysqli_fetch_array($consulta)){
+								while ($galeria=mysqli_fetch_array($consulta)){
 								?>
 									<tr class="odd gradeX">
-									  <td><?php echo $flyer['posicion']; ?></td>
-									  <td><?php echo $flyer['nombre']; ?></td>
-									  <td><a href="editarflyers.php?id=<?php echo $flyer['id'];?>">Editar</a></td>
-									  <td><a id="borrarflyer" flyer-id="<?php echo $flyer['id'];?>" href="#">Borrar</a></td>
+									  <td><?php echo $galeria['posicion']; ?></td>
+									  <td><?php echo $galeria['nombre']; ?></td>
+									  <td><a href="editarflyers.php?id=<?php echo $galeria['id'];?>">Editar</a></td>
+									  <td><a id="borrarflyer" galeria-id="<?php echo $galeria['id'];?>" href="#">Borrar</a></td>
 								    </tr>
 								<?php 
 								}
@@ -102,15 +102,15 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 				 </div>
 				  
 				  <!-- MODAL LUGAR -->
-				  <div class="modal fade" id="flyer" tabindex="-1" role="flyer" aria-hidden="true">
+				  <div class="modal fade" id="galeria" tabindex="-1" role="galeria" aria-hidden="true">
 					<div class="modal-dialog">
 					   <div class="modal-content">
 						  <div class="modal-header">
 							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-							 <h4 class="modal-title">Agregar Flyer</h4>
+							 <h4 class="modal-title">Agregar Foto</h4>
 						  </div>
 						  <!-- BEGIN FORM-->
-						  <form action="#" id="agregar_flyer" class="form-horizontal">
+						  <form action="#" id="agregar_galeria" class="form-horizontal">
 						  <div class="modal-body">
 								<div class="form-body">
 								   <div class="alert alert-danger display-hide">
@@ -119,7 +119,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 								   </div>
 								   <div class="alert alert-success display-hide">
 									  <button class="close" data-dismiss="alert"></button>
-									  Flyer Agregado!
+									  Foto Agregada!
 								   </div>
 								   <div class="form-group">
 									  <label class="control-label col-md-4">Nombre<span class="required">* </span></label>
@@ -127,18 +127,12 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 										 <input type="text" name="nombre" data-required="1" class="form-control"/>
 									  </div>
 								   </div>
-								    <div class="form-group">
-									  <label class="control-label col-md-4">URL<span class="required"> </span></label>
-									  <div class="col-md-8">
-										 <input type="text" name="url" data-required="1" class="form-control"/>
-									  </div>
-								   </div>
 								   <div class="form-group">
 									  <label class="control-label col-md-4">Imágen de Portada<span class="required">*</span></label>
 									  <div class="col-md-8">
 										 <div class="fileupload fileupload-new" data-provides="fileupload">
-											<div class="fileupload-new thumbnail" style="width: 333px; height: 161px;">
-											   <img src="http://www.placehold.it/910x440/EFEFEF/AAAAAA" alt="" />
+											<div class="fileupload-new thumbnail" style="width: 300px; height: 200px;">
+											   <img src="http://www.placehold.it/600x400/EFEFEF/AAAAAA" alt="" />
 											</div>
 											<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 910px; max-height: 440px; line-height: 20px;"></div>
 											<div id="contenedor_imagen_upload">
@@ -153,7 +147,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 									  </div>
 								   </div>
 								   <div class="form-group">
-									  <label class="col-md-3">&nbsp</label>
+									  <label class="col-md-3"> </label>
 									  <div class="col-md-8">
 										<img id="ajaxloader" style="display:none;" src="assets/loaders/loader.gif"/>
 									  </div>
@@ -172,6 +166,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					<!-- /.modal-dialog -->
 				  </div>
 				  <!-- FIN MODAL LUGAR -->
+				  
 				  <script type="text/javascript">
 					function enviarFormFlyer(){
 					  $('#ajaxloader').show();
@@ -184,8 +179,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					  var datosForm = new FormData();
 					  
 					  //Cargamos el nombre elegido
-					  datosForm.append('nombre',$("#agregar_flyer input[name=nombre]").val());
-					  datosForm.append('url',$("#agregar_flyer input[name=url]").val());
+					  datosForm.append('nombre',$("#agregar_galeria input[name=nombre]").val());
 					  //Como no sabemos cuantos archivos subira el usuario, iteramos la variable y al
 					  //objeto de FormData con el metodo "append" le pasamos calve/valor, usamos el indice "i" para
 					  //que no se repita, si no lo usamos solo tendra el valor de la ultima iteracion
@@ -199,7 +193,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					  datosForm.append('archivo',archivo[0]);
 					  
 					  $.ajax({
-						url:'agregarflyer.php', //Url a donde la enviaremos
+						url:'agregargaleria.php', //Url a donde la enviaremos
 						type:'POST', //Metodo que usaremos
 						contentType:false, //Debe estar en false para que pase el objeto sin procesar
 						data:datosForm, //Le pasamos el objeto que creamos con los archivos
@@ -209,9 +203,9 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 						if(msg==0){
 							$('#ajaxloader').hide();
 							$('#btn_enviar').removeClass('disabled');
-							$('.alert-success', $('#agregar_flyer')).show();//Muestra mensaje de lugar agregado
-							alert('Flyer agregado.');
-							$('#flyer').modal('hide')
+							$('.alert-success', $('#agregar_galeria')).show();//Muestra mensaje de lugar agregado
+							alert('Foto agregada.');
+							$('#galeria').modal('hide')
 							location.reload();
 						}else{
 							$('#ajaxloader').hide();
@@ -265,8 +259,8 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
    <!-- END PAGE LEVEL PLUGINS -->
    <!-- BEGIN PAGE LEVEL SCRIPTS -->
    <script src="assets/scripts/app.js"></script>
-   <script src="assets/scripts/tabla-flyers.js"></script>
-   <script src="assets/scripts/form-validation-flyers.js"></script>  
+   <script src="assets/scripts/tabla-galeria.js"></script>
+   <script src="assets/scripts/form-validation-galeria.js"></script>  
    <script src="assets/scripts/form-components.js"></script>        
    <!-- END PAGE LEVEL SCRIPTS -->
    <script>
