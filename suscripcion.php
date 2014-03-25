@@ -158,16 +158,29 @@
                     <div class="row-fluid">
 
                         <div class="span6">
-                            <h3>Formulario de suscripción</h3>
-                            <form id="form" action="">
+                            <div id="resultado">
+								<?php
+									if ( isset( $_SERVER['HTTP_REFERER'] ) ) { 
+										$refer = strtolower( $_SERVER['HTTP_REFERER'] ); 
+										
+										if($refer === 'http://localhost/agua/suscripcion.php')
+											echo "¡Gracias por registrarte! A partir de ahora recibirás información de los próximos eventos. Para darte 
+											de baja solo contesta un correo con asunto: baja y en el mensaje el motivo.";
+									} 
+								?>
+							</div>
+							<h3>Formulario de suscripción</h3>
+                            <form id="form1" action="php/registro.php" METHOD="POST">
                                 <input type="text" placeholder="Nombre *" name="nombre" required>
 								<input type="text" placeholder="Apellido *" name="apellido" required>
                                 <input type="email" placeholder="Correo *"  name="correo" required>
-                                <input type="text" placeholder="Telefono" name="telefono" required>
+                                <input type="text" placeholder="Telefono *" name="telefono" required>
                                 
                                 <input type="submit" name="Submit" value="Send Message" class="button">
-                            </form> 
-                            <div id="result"></div>  
+                            </form>
+
+							
+							
                         </div>
 
                         <div class="span6">

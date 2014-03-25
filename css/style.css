@@ -927,6 +927,29 @@ footer .button{
 .social .github:hover span{
 	background: #000;
 }
+/* Suscripcion--------------------------*/
+#form1 input{
+	width: 85%;
+	height: 32px;
+	margin-bottom: 20px;
+}
+#form1 textarea{
+	width: 95%;
+	height: 130px;
+}
+#form1 .button{
+	width: auto;
+	height: auto;
+}
+#form1 #result{
+	font-size: bold;
+}
+#resultado{
+	font-size: bold;
+	color: green;
+}
+
+
 
 /* Contact  ----------------------------*/
 
