@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php 
+	include("php/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -182,62 +193,40 @@
             <!-- End Info title-->
             
 
-            <!-- Info Resalt-->
+            <!-- Galeria de Fotos-->
             <div class="info_resalt borders">
                 <div class="container">
                     <div class="row-fluid">
                         <!-- flexslider-->
                          <div class="flexslider top_animationb" id="gallery">                            
                             <ul class="slides gallery">
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/1.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/1.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>                                   
-                                </li>   
-                                            
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/2.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/2.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>                                   
-                                </li>
-                                
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/3.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/3.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>  
-                                </li>  
-                                  
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/4.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/4.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>                                   
-                                </li>
-                                      
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/5.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/5.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>                                   
-                                </li>
-
-                                <li>
-                                    <div class="hover">
-                                        <img src="img/inicio/gallery/6.jpg" alt="Image"/>                               
-                                        <a href="img/inicio/gallery/6.jpg" class="fancybox" title="Image"><div class="overlay"></div></a>
-                                    </div>                                   
-                                </li>
-                                           
-                            </ul>                            
+								
+								<?php 
+									$sql = "SELECT nombre,imagen,posicion FROM galeria ORDER BY posicion ASC";
+									$consulta = mysqli_query($conexion, $sql);
+									$error = "";
+									if ($consulta){
+										while ($galeria=mysqli_fetch_array($consulta)){
+								?>
+											<li>
+												<div class="hover">
+													<img src="img/inicio/galeria/<?php echo $galeria['imagen']; ?>" alt="Image"/>                               
+													<a href="img/inicio/galeria/<?php echo $galeria['imagen']; ?>" class="fancybox" title="<?php echo $galeria['nombre']; ?>"><div class="overlay"></div></a>
+												</div>                                   
+											</li>
+								<?php 
+										}
+									}else{
+										$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+									}
+								?>	
+							</ul>                            
                         </div>
                         <!--End flexsilider-->                      
                     </div>
                 </div>
             </div>
-            <!-- End Info Resalt-->
+            <!-- End Galeria de Fotos-->
 
     
 			<!-- Info title-->
