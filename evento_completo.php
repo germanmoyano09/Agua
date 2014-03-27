@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Eventos</title>    
+    <title>Water Energy - Nombre del evento</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -39,7 +39,7 @@
                         <!-- Logo-->
                         <div class="span3 logo">
                             <a href="index.php" title="Back to Home">                            
-								<img src="img/logo.png" alt="Logo">
+                              <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -59,7 +59,7 @@
 								<li>
 									<a href="#">TERAPIAS</a>
 									<ul>                                  
-										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
+										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
 										<li><a href="terapia_watsu.php">WATSU</a></li>
 										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
 										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
@@ -79,7 +79,7 @@
 								</li>
 								
 								<li>
-									<a href="#">EVENTOS</a>
+									<a href="eventos.php">EVENTOS</a>
 								</li>
 								
 								<li>
@@ -103,10 +103,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Eventos</h1>
-                    </div>
-                    <div class="span7">                        
-                        <p>Puede hacer click sobre el nombre de los eventos para más información y una galería de fotos de los eventos pasados.</p>
+                        <h1>Nombre del evento</h1>
                     </div>
                 </div>
             </div>            
@@ -121,7 +118,9 @@
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Eventos</li>                                       
+                    <li><a href="eventos.php">Eventos</a></li>
+                    <li>/</li>
+                    <li>Nombre del evento</li>                                       
                 </ul>
             </div>        
         </div>
@@ -130,15 +129,18 @@
         <!-- End content info -->
         <section class="content_info">
             
-            <!-- Info title-->
+            <!-- Post-->
             <div class="row-fluid animated fadeInUp delay2">
                 <div class="vertical_line">
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
+                    <h2>Nombre del evento</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>    
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>    
+                    <p>Lorem ipsum dolor sit amet,adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p> 
 					
 					<div class="vertical_line"></div> 					
@@ -146,75 +148,11 @@
                 </div>
                 <div class="vertical_line"></div>                
             </div>
-            <!-- End Info title-->
-
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
-                </div>
-			</div>
-            <!-- End Info resalt-->
-
-			 <!-- Info title-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line"></div>
-                <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Info title-->
-
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
-                </div>
-		    </div>
-            <!-- End Info resalt-->
-			
-			
-			
-			
-			<!-- fechas de paginas
-				<div class="pagination pagination-large center padding_top">
-					<ul>
-						<li><a href="#">«</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">»</a></li>
-					</ul>
-				</div>
-			-->	
-			
-        </section>
-        <!-- End content info-->
-
+            <!-- End Post-->
+	
         <!-- footer-->
         <footer class="coopring">
-            <p>&copy; 2013 Jekas. All Rights Reserved.</p>
+            <p>&copy; 2014 GM. All Rights Reserved.</p>
         </footer>      
         <!-- End footer-->
 
@@ -254,6 +192,7 @@
         <!--fUNCTIONS-->
         <script type="text/javascript" src="js/jquery-func.js"></script>
         <!-- ======================= End JQuery libs =========================== -->
+
 
   </body>
 </html>
