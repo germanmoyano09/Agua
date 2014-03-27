@@ -114,14 +114,14 @@
 			<span class="title">Ver Web</span>
 			</a>
 		</li>
-		
+		<!--
 		<li >
 			<a href="https://www.google.com/analytics/web/?hl=es#dashboard/Ktt6ZBqzT5q1P7OUUQBMCw/a45885065w76675559p79262989/" target="_blank">
 			<i class="icon-bar-chart"></i> 
 			<span class="title">Ver Estadísticas</span>
 			</a>
 		</li>
-		
+		-->
 		<li class="last ">
 			<a href="logout.php">
 			<i class="icon-remove"></i> 
