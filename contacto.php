@@ -103,10 +103,9 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Contáctenos</h1>
+                        <h1>Contacto</h1>
                     </div>
                     <div class="span7">                        
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</p>
                     </div>
                 </div>
             </div>            
@@ -143,18 +142,17 @@
 					<div class="span4">
 						<div class="row-fluid">
 							<h2>Consultorio</h2>
-							<p class="lead"> Ozamis 123
+							<p class="lead"> Ozamis 574
 							<br>Maipu, Mendoza 5515<br>
-							Tel: +54 261 000 123<br>
-							Cel: +54 261 000 123<br>
-							Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
+							Cel: +54 2612 400 952<br>
+							Email: <a href="mailto:javier.water.energy@gmail.com">javier.water.energy@gmail.com</a><br>
 							</p>
 						</div>
 					</div>
 				   
 					<div class="span4">
 						<div class="row-fluid">
-							<img src="img/contacto/1.jpg" alt="Image">
+							<img src="img/contacto/2.jpg" alt="Image">
 						</div>
 					</div>
 				
@@ -171,19 +169,19 @@
                         <div class="span6">
                             <h3>Formulario de Contacto</h3>
                             <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
-                                <input type="text" placeholder="Nombre" name="Name" required>
-                                <input type="email" placeholder="Correo"  name="Email" required>
-                                <input type="number" placeholder="Teléfono"  name="Phone" required>
-                                <textarea placeholder="Mensaje" name="message" required></textarea>
-                                <input type="submit" name="Submit" value="Send Message" class="button">
+                                <input type="text" placeholder="Nombre Completo" name="nombre" required>
+                                <input type="email" placeholder="Correo"  name="correo" required>
+                                <input type="text" placeholder="Teléfono"  name="telefono" required>
+                                <textarea placeholder="Mensaje" name="mensaje" required></textarea>
+                                <input type="submit" name="Submit" value="Enviar Mensaje" class="button">
                             </form> 
                             <div id="result"></div>  
                         </div>
 
                         <div class="span6">
-                            <h3>Contactenos</h3>
+                            <h3>Contáctenos</h3>
                             <p class="lead">
-								
+								Para mayor información sobre terapias, talleres o eventos, escribe tu consulta.
 							</p>
                             
                             <!-- Map area-->
