@@ -112,32 +112,22 @@
             
             <!-- Slide -->           
             <div class="camera_wrap" id="slide">
-
-                <!-- Item Slide 1 --> 
-                <div  data-src="img/inicio/slides/1.jpg">
-                </div>
-                <!-- End Item Slide 1-->  
-
-                <!-- Item Slide 2 --> 
-                <div  data-src="img/inicio/slides/2.jpg">
-                </div>
-                 <!-- End Item Slide 2 --> 
-
-                 <!-- Item Slide 3--> 
-                <div  data-src="img/inicio/slides/3.jpg">
-                </div>
-                 <!-- End Item Slide 3 --> 
-
-                 <!-- Item Slide 4 --> 
-                <div  data-src="img/inicio/slides/4.jpg">
-                </div>
-                 <!-- End Item Slide 4 --> 
-
-                  <!-- Item Slide 5 --> 
-                <div  data-src="img/inicio/slides/5.jpg">
-                </div>
-                 <!-- End Item Slide 5 --> 
-            </div>    
+				<?php 
+					$sql = "SELECT nombre,imagen,posicion FROM slider ORDER BY posicion ASC";
+					$consulta = mysqli_query($conexion, $sql);
+					$error = "";
+					if ($consulta){
+						while ($slider=mysqli_fetch_array($consulta)){
+				?>
+						 <div  data-src="img/inicio/slides/<?php echo $slider['imagen']; ?>">
+						 </div>
+				<?php 
+						}
+					}else{
+						$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+					}
+				?>	
+			</div>    
         </header>
         <!-- End Header-->
 

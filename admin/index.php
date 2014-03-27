@@ -58,14 +58,11 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
-					 0
-						<?php 
-						/*
-							$sql = "SELECT * FROM musica";
+					    <?php 
+							$sql = "SELECT * FROM slider";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
-							*/
 						?>
 					 </div>
                      <div class="desc">Sliders</div>
