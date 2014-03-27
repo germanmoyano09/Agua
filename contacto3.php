@@ -142,8 +142,8 @@
 						
 					<div class="span4">
 						<div class="row-fluid">
-							<h4>Consultorio</h4>
-							<p> Ozamis no me acuerdo el numero
+							<h2>Consultorio</h2>
+							<p class="lead"> Ozamis 123
 							<br>Maipu, Mendoza 5515<br>
 							Tel: +54 261 000 123<br>
 							Cel: +54 261 000 123<br>
