@@ -115,16 +115,6 @@
 
                 <!-- Item Slide 1 --> 
                 <div  data-src="img/inicio/slides/1.jpg">
-                    <div class="camera_caption fadeFromLeft">
-                        <div class="container">
-                            <div class="row-fluid">                                
-                                <div class="span8">
-                                    <h1 class="animated fadeInDown">Bienvenidos a <br><span>WATER ENERGY</span>.</h1>
-                                    <p class="animated fadeInUp">Agua - Sonido - Energía - Toque</p>
-                                </div>
-                            </div>  
-                        </div>                                                                                         
-                    </div>
                 </div>
                 <!-- End Item Slide 1-->  
 
@@ -135,16 +125,6 @@
 
                  <!-- Item Slide 3--> 
                 <div  data-src="img/inicio/slides/3.jpg">
-                    <div class="camera_caption fadeFromLeft">
-                        <div class="container">
-                            <div class="row-fluid">                                
-                                <div class="span8">
-								    <h1 class="animated fadeInDown">Todos estamos aquí con un único objetivo: saber quiénes somos.</h1>
-                                    <p class="animated fadeInUp"></p>
-								</div>
-                            </div>  
-                        </div>                                                                                         
-                    </div>
                 </div>
                  <!-- End Item Slide 3 --> 
 
@@ -155,17 +135,6 @@
 
                   <!-- Item Slide 5 --> 
                 <div  data-src="img/inicio/slides/5.jpg">
-                    <div class="camera_caption fadeFromLeft">
-                        <div class="container">
-                            <div class="row-fluid">                                
-                                <div class="span8">
-                                    <h1 class="animated fadeInDown"></h1>
-                                    <p class="animated fadeInUp">UNA VEZ QUE ALGO HA ESTADO UNIDO , ESTA SIEMPRE CONECTADO, A PESAR DE QUE LA UNION FÍSICA HAYA DEJADO DE EXISTIR.</p>
-                                    
-                                </div>
-                            </div>  
-                        </div>                                                                                         
-                    </div>
                 </div>
                  <!-- End Item Slide 5 --> 
             </div>    
@@ -181,10 +150,9 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="info_vertical">
-					<p>El agua es el elemento clave de esta nueva era .Crear un viaje</p>
-					<p>interior con movimientos lentos, toques sutiles y vibración.</p>
-					<h1> <span>Bienvenidos - Water Energy </span></h1>
-                </div>
+					<h1>Bienvenidos a <br><span>WATER ENERGY</span></h1>
+                    <p>Agua - Sonido - Energía - Toque</p>
+				</div>
                 <div class="vertical_line"></div>
 				
 				<i class="icon-tint right"></i>
@@ -235,12 +203,11 @@
                     <div class="circle_bottom"></div>
                 </div>
                 <div class="info_vertical">
-                    <p>
-						Señor,Hazme un instrumento de tu paz:allí donde haya odio, que yo ponga el amor,allí donde haya ofensa, que yo ponga el perdón;allí donde haya discordia, que yo ponga la unión;
-						allí donde haya error, que yo ponga la verdad;allí donde haya duda, que yo ponga la fe;allí donde haya desesperación, que yo ponga la esperanza;allí donde haya tinieblas, que yo ponga la luz;
-						allí donde haya tristeza, que yo ponga alegría.Porque:dando es como se recibe,olvidándose de sí es como uno se encuentra,perdonando es como se recibe el perdón,
-						y muriendo es como se resucita a la Vida.Francisco de Asís
-					</p>
+                    <p>El agua es el elemento clave de esta nueva era .Crear un viaje</p>
+					<p>interior con movimientos lentos, toques sutiles y vibración.</p>
+					<h1> <span>Water Energy </span></h1>
+					
+
                 </div>
                 <div class="vertical_line"></div>
 
@@ -365,17 +332,10 @@
                 </div>
                 <div class="info_vertical">
                     <p>
-						Los trabajadores de la luz son aquellas personas que antes de nacer se ofrecieron voluntarias para ayudar al planeta y a sus habitantes sanar de los efectos provocados por el temor.
-						Eres trabajador de la luz si te identificas con las siguientes afirmaciones:
-						<br>• Sientes la vocación de sanar a otras personas.
-						<br>• Deseas resolver los problemas sociales y medioambientales del mundo.
-						<br>• Estas convencido de que los métodos espirituales son capaces de sanar cualquier situación problemática.
-						<br>• Has vivido experiencias místicas; posibles que hayas tenido premoniciones psíquicas o encuentros angélicos, por ejemplo.
-						<br>• Has sufrido experiencias muy duras en la vida que han erosionado tu conocimiento de que posees perfección divina.
-						<br>• Deseas sanar tu propia vida pues consideras que es el primer paso para poder sanar al mundo.
-						<br>• Sientes un fuerte impulso de escribir, enseñar o realizar un trabajo de asesoramiento relacionado con tus experiencias sanadoras.
-						<br>• Eres consciente de que estas en este mundo para cumplir un propósito superior, aunque no estés seguro de cual es ni de cómo llevarlo a la práctica.
-						<br>Doreen Virtue
+						Señor, hazme un instrumento de tu paz: allí donde haya odio, que yo ponga el amor, allí donde haya ofensa, que yo ponga el perdón; allí donde haya discordia, que yo ponga la unión;
+						allí donde haya error, que yo ponga la verdad; allí donde haya duda, que yo ponga la fe; allí donde haya desesperación, que yo ponga la esperanza; allí donde haya tinieblas, que yo ponga la luz;
+						allí donde haya tristeza, que yo ponga alegría. Porque: dando es como se recibe, olvidándose de sí es como uno se encuentra, perdonando es como se recibe el perdón,
+						y muriendo es como se resucita a la Vida. Francisco de Asís.
 					</p>
                 </div>
                 <div class="vertical_line"></div>
