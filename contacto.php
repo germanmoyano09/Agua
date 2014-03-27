@@ -134,7 +134,6 @@
             <div class="container padding">
                 <div class="row-fluid animated fadeInUp delay2">
 					
-					<!--
 					<div class="span4">
 						<div class="row-fluid">
 							<img src="img/contacto/1.jpg" alt="Image">
@@ -143,8 +142,8 @@
 						
 					<div class="span4">
 						<div class="row-fluid">
-							<h4>Consultorio</h4>
-							<p> Ozamis no me acuerdo el numero
+							<h2>Consultorio</h2>
+							<p class="lead"> Ozamis 123
 							<br>Maipu, Mendoza 5515<br>
 							Tel: +54 261 000 123<br>
 							Cel: +54 261 000 123<br>
@@ -158,28 +157,8 @@
 							<img src="img/contacto/1.jpg" alt="Image">
 						</div>
 					</div>
-				   -->
-				   
-				   
-				   <div class="span6">
-                       <div class="row-fluid">
-							<div class="span6">
-								<img src="img/contacto/1.jpg" alt="Image">
-							</div>
-							<div class="span6">
-								<h4>Consultorio</h4>
-								<p> Ozamis no me acuerdo el numero
-								<br>Maipu, Mendoza 5515<br>
-								Tel: +54 261 000 123<br>
-								Email: <a href="mailto:jg@gmail.net">testmail@yourdomain.com</a><br>
-								</p>
-							</div>
-                       </div>
-                    </div>  
-					
-					
-					
-                </div>
+				
+				</div>
             </div>
             <!-- End Info title-->
 
@@ -203,7 +182,9 @@
 
                         <div class="span6">
                             <h3>Contactenos</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
+                            <p class="lead">
+								
+							</p>
                             
                             <!-- Map area-->
                             <section class="map_area">
