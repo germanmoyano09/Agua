@@ -186,8 +186,7 @@
                             
                             <!-- Map area-->
                             <section class="map_area">
-                                <iframe  src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=40.396764,-3.713379&amp;sspn=9.61761,19.753418&amp;ie=UTF8&amp;hq=&amp;hnear=Nueva+York,+Estados+Unidos&amp;ll=40.614353,-74.005973&amp;spn=0.598524,1.234589&amp;t=m&amp;z=10&amp;output=embed">
-                                </iframe>
+                               <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=Ozamis+574++Maipu,+Mendoza&amp;aq=&amp;sll=-32.978752,-68.789393&amp;sspn=0.01053,0.021136&amp;ie=UTF8&amp;hq=&amp;hnear=Ozamis+JA+574,+Maip%C3%BA,+Mendoza&amp;ll=-32.978752,-68.789392&amp;spn=0.01053,0.021136&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://www.google.com.ar/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=Ozamis+574++Maipu,+Mendoza&amp;aq=&amp;sll=-32.978752,-68.789393&amp;sspn=0.01053,0.021136&amp;ie=UTF8&amp;hq=&amp;hnear=Ozamis+JA+574,+Maip%C3%BA,+Mendoza&amp;ll=-32.978752,-68.789392&amp;spn=0.01053,0.021136&amp;t=m&amp;z=14" target="_blank" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
                             </section>
                             <!-- End Map area-->
                         </div>
