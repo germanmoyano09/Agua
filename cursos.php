@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Eventos</title>    
+    <title>Water Energy - Cursos</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -103,10 +103,9 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Eventos</h1>
+                        <h1>Cursos</h1>
                     </div>
                     <div class="span7">                        
-                        <p>Puede hacer click sobre el nombre de los eventos para más información y una galería de fotos de los eventos pasados.</p>
                     </div>
                 </div>
             </div>            
@@ -121,7 +120,7 @@
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
                     <li>/</li>
-                    <li>Eventos</li>                                       
+                    <li>Cursos</li>                                       
                 </ul>
             </div>        
         </div>
@@ -131,91 +130,102 @@
         <section class="content_info">
             
             <!-- Info title-->
-            <div class="row-fluid animated fadeInUp delay2">
+            <div class="row-fluid info_title animated fadeInUp delay2">
                 <div class="vertical_line">
                     <div class="circle_top"></div>
                 </div>
-                <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">          
+                <div class="info_vertical">
+                    <h2>Cursos dictados por Javier Gonzales</h2>
+                    <p>“Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”</p>
                 </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Info title-->
-
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
-                </div>
-			</div>
-            <!-- End Info resalt-->
-
-			 <!-- Info title-->
-            <div class="row-fluid animated fadeInUp delay2">
                 <div class="vertical_line"></div>
-                <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
+
+                <!--  <i class="icon-cogs right"></i> -->
             </div>
             <!-- End Info title-->
 
+           
             <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento - Lugar</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
+            <div class="info_resalt borders">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span8">
+                             <h2>Nombre Curso 1</h2>
+                             <h5>Real data from real visitors equals real performance data.</h5>
+                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
+                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
+                           
+                        </div>
+                        <!-- Image animation-->
+                        <div class="span4 image_resalt">
+                            <div class="animation">
+                               <img src="img/cursos/1.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <!-- End Image animation-->
+                    </div>
                 </div>
-		    </div>
+            </div>
+            <!-- End Info resalt-->
+
+            <!-- Info resalt-->
+            <div class="info_resalt borders">
+                <div class="container">
+                    <div class="row-fluid">
+						<!-- Image animation-->
+                        <div class="span4 image_resalt">
+                            <div class="animation">
+                               <img src="img/cursos/1.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <!-- End Image animation-->
+                        <div class="span8">
+                             <h2>Nombre Curso 2</h2>
+                             <h5>Real data from real visitors equals real performance data.</h5>
+                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
+                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
             <!-- End Info resalt-->
 			
-			
-			
-			
-			<!-- fechas de paginas
-				<div class="pagination pagination-large center padding_top">
-					<ul>
-						<li><a href="#">«</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">»</a></li>
-					</ul>
-				</div>
-			-->	
-			
+			<!-- Info resalt-->
+            <div class="info_resalt borders">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span8">
+                             <h2>Nombre Curso 3</h2>
+                             <h5>Real data from real visitors equals real performance data.</h5>
+                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
+                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
+                           
+                        </div>
+                        <!-- Image animation-->
+                        <div class="span4 image_resalt">
+                            <div class="animation">
+                               <img src="img/cursos/1.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <!-- End Image animation-->
+                    </div>
+                </div>
+            </div>
+            <!-- End Info resalt-->
+
+
+      
         </section>
         <!-- End content info-->
 
+       
+
         <!-- footer-->
-        <footer class="coopring">
+         <footer class="coopring">
             <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>      
+        </footer>   
         <!-- End footer-->
 
    
@@ -254,6 +264,7 @@
         <!--fUNCTIONS-->
         <script type="text/javascript" src="js/jquery-func.js"></script>
         <!-- ======================= End JQuery libs =========================== -->
+
 
   </body>
 </html>
