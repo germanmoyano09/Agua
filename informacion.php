@@ -188,10 +188,10 @@ Todas las cosas son creadas a partir de esta energía. Si realmente miras la rea
 		 
 		
         <!-- footer-->
-        <footer class="coopring">
-            <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>      
-        <!-- End footer-->
+			<?php
+				include("fijo/footer.php"); 
+			?>        
+		<!-- End footer-->
    
         <!-- ======================= JQuery libs =========================== -->
         <!-- Always latest version of jQuery-->

@@ -300,13 +300,11 @@
         <!-- End content info-->
 
         <!-- footer-->
-        <footer class="coopring">
-			<p><a href="mailto:c.germanmoyano@gmail.com">&copy;2014 DESARROLLO WEB: Germán Moyano</a></p>
-            
-        </footer>      
+			<?php
+				include("fijo/footer.php"); 
+			?>
         <!-- End footer-->
-
-   
+  
         <!-- ======================= JQuery libs =========================== -->
         <!-- Always latest version of jQuery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>   

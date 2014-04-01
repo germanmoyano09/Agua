@@ -196,9 +196,9 @@
        
 
         <!-- footer-->
-         <footer class="coopring">
-            <p>&copy; 2014 GM. All Rights Reserved.</p>
-        </footer>   
+			<?php
+				include("fijo/footer.php"); 
+			?>
         <!-- End footer-->
 
    
