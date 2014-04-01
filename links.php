@@ -103,34 +103,33 @@
        
 	   <!-- Links-->
 		<div class="row-fluid animated fadeInUp delay2">
-		
-	    <section class="content_info">
-			<div class="vertical_line">
-				<div class="circle_top"></div>
-			</div>
-			
-			<?php 
-				$sql = "SELECT nombre,link FROM link ORDER BY id DESC";
-				$consulta = mysqli_query($conexion, $sql);
-				$error = "";
-				if ($consulta){
-					while ($link=mysqli_fetch_array($consulta)){
-			?>
-				<div class="post">
-					<a href="http://<?php echo $link['link']; ?>"  target="_blank"><h3><?php echo $link['nombre']; ?></h3></a>
-					<p>
-						link: <a href="http://<?php echo $link['link']; ?>"  target="_blank"> <?php echo $link['link']; ?></a>
-					</p>	
+			<section class="content_info">
+				<div class="vertical_line">
+					<div class="circle_top"></div>
 				</div>
-                <div class="vertical_line"></div>                
-                        
-			<?php 
+				
+				<?php 
+					$sql = "SELECT nombre,link FROM link ORDER BY id DESC";
+					$consulta = mysqli_query($conexion, $sql);
+					$error = "";
+					if ($consulta){
+						while ($link=mysqli_fetch_array($consulta)){
+				?>
+					<div class="post">
+						<a href="http://<?php echo $link['link']; ?>"  target="_blank"><h3><?php echo $link['nombre']; ?></h3></a>
+						<p>
+							link: <a href="http://<?php echo $link['link']; ?>"  target="_blank"> <?php echo $link['link']; ?></a>
+						</p>	
+					</div>
+					<div class="vertical_line"></div>                
+							
+				<?php 
+						}
+					}else{
+						$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
 					}
-				}else{
-					$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
-				}
-			?>			
-			
+				?>			
+			</section>
 		</div>	
 		<!-- End Post-->
 		
