@@ -340,7 +340,8 @@
 
         <!-- footer-->
         <footer class="coopring">
-            <p>&copy; 2014 GM. All Rights Reserved.</p>
+			<p><a href="mailto:c.germanmoyano@gmail.com">&copy;2014 DESARROLLO WEB: Germán Moyano</a></p>
+            
         </footer>      
         <!-- End footer-->
 

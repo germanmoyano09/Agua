@@ -150,11 +150,23 @@
                 <div class="container">
                     <div class="row-fluid">
                         <div class="span8">
-                             <h2>Nombre Curso 1</h2>
-                             <h5>Real data from real visitors equals real performance data.</h5>
-                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
-                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
-                           
+                             <h2>Introducción al trabajo corporal con sonidos en el Agua</h2>
+                             <p>
+								Este taller básico donde puedes experimentar  AGUA – SONIDO - ENERGIA – TOQUE – VIBRACION  tiene como principal objetivo 
+								descubrir formas de trabajo acuático que integra el poder de los sonidos para entregar al alma el verdadero significado 
+								de lo que somos: vibración. Este taller ayudará a los participantes a descubrir los caminos y el toque sutil de incluir 
+								sonido en sus terapias acuáticas.	
+							 </p>
+							 <p>
+								El taller está destinado a todos aquellos que busquen explorar otras formas de acercamiento terapéutico.
+							 </p>
+							 <p>
+								Temas a desarrollar: 
+								<br>• Liberación de los tejidos (liberación diafragmática) para el toque de cuenco aportes de craneosacral.
+								<br>• Criterios de selección de un cuenco para el trabajo terapéutico
+								<br>• Diferentes formas de tocar un cuenco en el agua Técnicas y formas de trabajo con cuencos .
+								<br>• Lugares del cuerpo dónde tocar, ubicación. 
+							 </p>
                         </div>
                         <!-- Image animation-->
                         <div class="span4 image_resalt">
@@ -180,10 +192,10 @@
                         </div>
                         <!-- End Image animation-->
                         <div class="span8">
-                             <h2>Nombre Curso 2</h2>
-                             <h5>Real data from real visitors equals real performance data.</h5>
-                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
-                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
+                             <h2>Toque energético en el Agua</h2>
+                             <p>
+								
+							 </p>
                            
                         </div>
                         

@@ -176,7 +176,7 @@
                                 <input type="email" placeholder="Correo *"  name="correo" required>
                                 <input type="text" placeholder="Telefono *" name="telefono" required>
                                 
-                                <input type="submit" name="Submit" value="Send Message" class="button">
+                                <input type="submit" name="Submit" value="Enviar Mensaje" class="button">
                             </form>
 
 							
