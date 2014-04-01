@@ -43,7 +43,11 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                      <i class="icon-angle-right"></i>
                   </li>
                   <li>
-                     <a href="#">Registrados</a>
+                     <a href="registro.php">Registrados</a>
+                     <i class="icon-angle-right"></i>
+				  </li>
+                  <li>
+                     <a href="#"> Lista de Usuarios Registrados</a>
                      <i class="icon-angle-right"></i>
                </ul>
                <!-- END PAGE TITLE & BREADCRUMB-->
@@ -56,58 +60,32 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                <!-- TABLA EDITABLE-->
                <div class="portlet box red">
                   <div class="portlet-title">
-                     <div class="caption"><i class="icon-group"></i>Registrados</div>
+                     <div class="caption"><i class="icon-user"></i>Registrados</div>
                   </div>
                   <div class="portlet-body">
-                     <div class="table-toolbar">
-						<div class="btn-group">
-							   <a class="btn blue" href="mostrarregistrado.php">
-							   Lista de Correos <i class="icon-envelope-alt"></i>
-							   </a>
-						 </div>
-						 
-						 <div class="btn-group">
-							   <a class="btn blue" href="descargarlistaregistrados.php">
-							   Descargar lista de Registrados <i class="icon-group"></i>
-							   </a>
-						 </div>					 
-					 </div>
                      
-					 <table class="table table-striped table-bordered table-hover" id="tabla_registro">
-                        <thead>
-                           <tr>
-                              <th>Nombre</th>
-							  <th>Apellido</th>
-                              <th>Correo</th>
-							  <th>Telefono</th>
-							  <th>Eliminar</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-							<?php 
-							$sql = "SELECT * FROM registro ORDER BY nombre ASC";
+					<?php 
+							$sql = "SELECT * FROM registro";
 							$consulta = mysqli_query($conexion, $sql);
 							$error = "";
 							if ($consulta){
 								while ($registro=mysqli_fetch_array($consulta)){
-								?>
-									<tr class="odd gradeX">
-									  <td><?php echo $registro['nombre']; ?></td>
-									  <td><?php echo $registro['apellido']; ?></td>
-									  <td><?php echo $registro['correo']; ?></td>
-									  <td><?php echo $registro['telefono']; ?></td>
-									  <td><a id="borrarregistro" registro-id="<?php echo $registro['id'];?>" href="#">Borrar</a></td>
-								    </tr>
-								<?php 
+								 echo $registro['correo'];
+								 echo ", ";	
+								
 								}
 							}else{
 								$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
 							}
-							?>
-                        </tbody>
-                     </table>
-                  </div>
-			   </div>
+					?>
+					
+					<div class="modal-footer">
+						<a href="registro.php" type="button" class="btn default" >Volver</a>
+					</div>
+				  
+				 
+				 
+               </div>
                <!-- FIN TABLA EDITABLE-->
             </div>
          </div>
@@ -158,7 +136,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
    <script>
       jQuery(document).ready(function() {       
          App.init();
-         TablaRegistro.init();
+         TablaLugares.init();
          FormComponents.init();
          FormValidation.init();
       });

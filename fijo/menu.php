@@ -110,16 +110,6 @@
 		
 		<li>
 			<?php
-				if($titulo === "cursos"){
-					echo '<a class="sel" href="#">CURSOS</a>';
-				}else{
-					echo '<a href="cursos.php">CURSOS</a>';
-				}
-			?>
-		</li>							
-		
-		<li>
-			<?php
 				if($titulo === "eventos"){
 					echo '<a class="sel" href="#">EVENTOS</a>';
 				}else{
@@ -128,6 +118,16 @@
 			?>
 		</li>
 		
+		<li>
+			<?php
+				if($titulo === "cursos"){
+					echo '<a class="sel" href="#">CURSOS</a>';
+				}else{
+					echo '<a href="cursos.php">CURSOS</a>';
+				}
+			?>
+		</li>							
+	
 		<li>
 			<?php
 				if($titulo === "links"){
