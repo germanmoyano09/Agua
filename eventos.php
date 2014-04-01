@@ -109,7 +109,7 @@
 				</div>
 				
 				<?php 
-					$sql = "SELECT nombre,link FROM eventos ORDER BY id DESC";
+					$sql = "SELECT nombre,link FROM evento ORDER BY id DESC";
 					$consulta = mysqli_query($conexion, $sql);
 					$error = "";
 					if ($consulta){

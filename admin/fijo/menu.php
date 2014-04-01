@@ -28,7 +28,7 @@
 			</a>
 		</li>
 		
-		<li class="<?php if ($titulo=="Lugares") echo 'active';?>">
+		<li class="<?php if ($titulo=="Evento") echo 'active';?>">
 			<a href="evento.php">
 			<i class="icon-calendar"></i> 
 			<span class="title">Eventos</span>

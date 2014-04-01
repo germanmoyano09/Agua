@@ -105,19 +105,16 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                   </div>
                   <div class="details">
                      <div class="number">
-					 0
 						<?php
-						/*						
-							$sql = "SELECT * FROM beneficio";
+							$sql = "SELECT * FROM evento";
 							$result = mysqli_query($conexion, $sql);
 							$row_cnt = mysqli_num_rows($result);
 							printf($row_cnt);
-						*/	
 						?>
 					 </div>
                      <div class="desc">Eventos</div>
                   </div>
-                  <a class="more" href="beneficios.php">
+                  <a class="more" href="evento.php">
                   Administrar <i class="m-icon-swapright m-icon-white"></i>
                   </a>                 
                </div>
