@@ -131,7 +131,7 @@
 				?>			
 			</section>
 		</div>	
-		<!-- End Post-->
+		<!-- End Links-->
 		
         <!-- footer-->
 			<?php

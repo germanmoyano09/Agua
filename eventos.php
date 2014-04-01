@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php 
+	include("php/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -89,90 +100,39 @@
         <!-- End crumbs-->
 
         <!-- End content info -->
-        <section class="content_info">
-            
-            <!-- Info title-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line">
-                    <div class="circle_top"></div>
-                </div>
-                <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Info title-->
-
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
-                </div>
-			</div>
-            <!-- End Info resalt-->
-
-			 <!-- Info title-->
-            <div class="row-fluid animated fadeInUp delay2">
-                <div class="vertical_line"></div>
-                <div class="post">
-                    <h2><a href="evento_completo.php">Nombre del  evento</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">          
-                </div>
-                <div class="vertical_line"></div>                
-            </div>
-            <!-- End Info title-->
-
-            <!-- Info resalt-->
-            <div class="info_resalt border_top">
-                <div class="container post">
-                     <h2><a href="evento_completo.php">Nombre del  evento - Lugar</a></h2>
-					<h5>Fecha xx/xx/xxxx</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> 
-					
-					<div class="vertical_line"></div> 					
-                    <img src="img/eventos/1.jpg" alt="Image" class="padding_top_mini">  
-                </div>
-		    </div>
-            <!-- End Info resalt-->
-			
-			
-			
-			
-			<!-- fechas de paginas
-				<div class="pagination pagination-large center padding_top">
-					<ul>
-						<li><a href="#">«</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">»</a></li>
-					</ul>
+         
+		<!-- Eventos-->
+		<div class="row-fluid animated fadeInUp delay2">
+			<section class="content_info">
+				<div class="vertical_line">
+					<div class="circle_top"></div>
 				</div>
-			-->	
-			
-        </section>
-        <!-- End content info-->
-
+				
+				<?php 
+					$sql = "SELECT nombre,link FROM eventos ORDER BY id DESC";
+					$consulta = mysqli_query($conexion, $sql);
+					$error = "";
+					if ($consulta){
+						while ($evento=mysqli_fetch_array($consulta)){
+				?>
+					<div class="post">
+						<a href="http://<?php echo $evento['link']; ?>"  target="_blank"><h3><?php echo $evento['nombre']; ?></h3></a>
+						<p>
+							link: <a href="http://<?php echo $evento['link']; ?>"  target="_blank"> <?php echo $evento['link']; ?></a>
+						</p>	
+					</div>
+					<div class="vertical_line"></div>                
+							
+				<?php 
+						}
+					}else{
+						$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+					}
+				?>			
+			</section>
+		</div>	
+		<!-- End Eventos-->
+		
         <!-- footer-->
 			<?php
 				include("fijo/footer.php"); 
