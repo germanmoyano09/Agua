@@ -698,6 +698,11 @@ header .container{
 .sel{
 	color:#0088cc !important;
 }
+
+.sel_terapia{
+	background:#777 !important;	
+}
+
 /* Galley Carousel ------------------------------------*/
 
 .flexslider .gallery li img{
