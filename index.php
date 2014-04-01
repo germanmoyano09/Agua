@@ -13,7 +13,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Water Energy </title>    
+    <title> Water-Energy </title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -49,7 +49,7 @@
 
                         <!-- Logo-->
                         <div class="span3 logo">
-                            <a href="index.php" title="Back to Home">                            
+                            <a href="#" title="Back to Home">                            
                                <img src="img/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -57,50 +57,11 @@
                                                       
                         <!-- Nav-->
                         <nav class="span9">
-                            <!-- Menu-->
-                            <ul id="menu" class="sf-menu">
-                                <li>
-                                    <a href="#">INICIO</a>
-                                </li>
-                                
-								 <li>
-                                    <a href="informacion.php">INFORMACIÓN</a>
-                                </li>
-								
-								<li>
-									<a href="#">TERAPIAS</a>
-									<ul>                                  
-										<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
-										<li><a href="terapia_watsu.php">WATSU</a></li>
-										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
-										
-										<!--
-											<li><a href="single_post.php"></a></li>
-										-->
-									</ul>
-								</li>
-                                
-								<li>
-									<a href="suscripcion.php">SUSCRIPCIÓN</a>
-								</li>
-								
-								<li>
-									<a href="eventos.php">EVENTOS</a>
-								</li>
-								
-								<li>
-									<a href="links.php">LINKS</a>
-								</li>
-										
-								<li>
-									<a href="contacto.php">CONTACTO</a>
-								</li>
-                            </ul>
+							<!-- Menu-->
+								<?php
+									$titulo="index";
+									include("fijo/menu.php"); 
+								?>
                             <!-- End Menu-->
                         </nav>
                         <!-- End Nav-->

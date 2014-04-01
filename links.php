@@ -58,49 +58,10 @@
                         <!-- Nav-->
                         <nav class="span9">
                             <!-- Menu-->
-                            <ul id="menu" class="sf-menu">
-                                <li>
-                                    <a href="index.php">INICIO</a>
-                                </li>
-                                
-								 <li>
-                                    <a href="informacion.php">INFORMACIÓN</a>
-                                </li>
-								
-								<li>
-									<a href="#">TERAPIAS</a>
-									<ul>                                  
-										<li><a href="terapia_jahara_technique.php">JAHARA TECHNIQUE</a></li>
-										<li><a href="terapia_watsu.php">WATSU</a></li>
-										<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
-										<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
-										<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
-										<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
-										<li><a href="terapia_monochord.php">MONOCHORD</a></li>
-										<li><a href="terapia_ai_chi.php">AI CHI</a></li>
-										
-										<!--
-											<li><a href="single_post.php"></a></li>
-										-->
-									</ul>
-								</li>
-                                
-								<li>
-									<a href="suscripcion.php">SUSCRIPCIÓN</a>
-								</li>
-								
-								<li>
-									<a href="#">EVENTOS</a>
-								</li>
-								
-								<li>
-									<a href="#">LINKS</a>
-								</li>
-										
-								<li>
-									<a href="contacto.php">CONTACTO</a>
-								</li>
-                            </ul>
+								<?php
+									$titulo="links";
+									include("fijo/menu.php"); 
+								?>
                             <!-- End Menu-->
                         </nav>
                         <!-- End Nav-->
