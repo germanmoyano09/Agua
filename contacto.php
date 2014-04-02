@@ -124,12 +124,18 @@
             <!-- Info resalt-->
             <div class="info_resalt border_top">
                 <div class="container">
-
-                    <div class="row-fluid">
-
-                        <div class="span6">
-                            <h3>Formulario de Contacto</h3>
-                            <form id="form" action="http://html.iwthemes.com/jekas/skin_two/send_mail.php">
+					<div class="row-fluid">
+						<div class="span6">
+							<div id="resultado">
+								<?php
+									if (isset($_GET['ok'])){
+										echo "¡Gracias por tu mensaje! Nos pondremos en contacto lo antes posible.";
+									}
+								?>
+							</div>
+                            
+							<h3>Formulario de Contacto</h3>
+							<form id="form" action="php/contacto.php" method="post"> 
                                 <input type="text" placeholder="Nombre Completo" name="nombre" required>
                                 <input type="email" placeholder="Correo"  name="correo" required>
                                 <input type="text" placeholder="Teléfono"  name="telefono" required>

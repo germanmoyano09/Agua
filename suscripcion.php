@@ -125,8 +125,6 @@
 										echo "¡Gracias por registrarte! A partir de ahora recibirás información de los próximos eventos. Para darte 
 											de baja solo contesta un correo con asunto: baja y en el mensaje el motivo.";
 									}
-								
-								
 								/*
 									if ( isset( $_SERVER['HTTP_REFERER'] ) ) { 
 										$refer = strtolower( $_SERVER['HTTP_REFERER'] ); 
