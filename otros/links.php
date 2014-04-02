@@ -77,8 +77,8 @@
                     <div class="span5">
                         <h1>Links</h1>
                     </div>
-					<div class="span7">                        
-                        <p>Puede hacer click sobre cualquiera de los siguientes links y será redirigido a esa página en una nueva pestaña.</p>
+                    <div class="span7">                        
+                        
                     </div>
                 </div>
             </div>            
@@ -104,53 +104,31 @@
 	   <!-- Links-->
 		<div class="row-fluid animated fadeInUp delay2">
 			<section class="content_info">
-				<div class="row-fluid">
-					<div class="info_vertical">
-						<h2>Links de páginas recomendadas</h2>
-					</div>					
-					
-                    <div class="span12">
-						<table class="table table-striped">
-							<thead>
-								<tr>
-									<th>
-									</th>
-									<th>
-									   <!-- Nombre de la página -->
-									</th>
-									<th>
-										<!-- URL -->
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								<?php 
-									$sql = "SELECT nombre,link FROM link ORDER BY id DESC";
-									$consulta = mysqli_query($conexion, $sql);
-									$error = "";
-									if ($consulta){
-										while ($link=mysqli_fetch_array($consulta)){
-								?>
-									<tr>
-										<td>
-										</td>
-										<td>
-											<?php echo $link['nombre']; ?>
-										</td>
-										<td>
-											link: <a href="http://<?php echo $link['link']; ?>"  target="_blank"> <?php echo $link['link']; ?></a>
-										</td>
-									</tr>
-								<?php 
-										}
-									}else{
-										$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
-									}
-								?>		
-							</tbody>
-						</table>
-					</div>
+				<div class="vertical_line">
+					<div class="circle_top"></div>
 				</div>
+				
+				<?php 
+					$sql = "SELECT nombre,link FROM link ORDER BY id DESC";
+					$consulta = mysqli_query($conexion, $sql);
+					$error = "";
+					if ($consulta){
+						while ($link=mysqli_fetch_array($consulta)){
+				?>
+					<div class="post">
+						<a href="http://<?php echo $link['link']; ?>"  target="_blank"><h3><?php echo $link['nombre']; ?></h3></a>
+						<p>
+							link: <a href="http://<?php echo $link['link']; ?>"  target="_blank"> <?php echo $link['link']; ?></a>
+						</p>	
+					</div>
+					<div class="vertical_line"></div>                
+							
+				<?php 
+						}
+					}else{
+						$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+					}
+				?>			
 			</section>
 		</div>	
 		<!-- End Links-->
