@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
 	<title> Water Energy - Suscripción </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Germán Moyano">
+	<meta name="description" content="Si te suscribes al Boletín de Noticas podrás estar informado puntualmente de todas las actividades que se realizarán a lo largo del año. Por favor, rellena todos los campos para poder brindarte un mejor servicio. Los campos con un asterisco (*) son obligatorios." />	
+	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="index, follow" />
     
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+     <!-- Favicons -->
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
@@ -105,35 +107,22 @@
 							largo del año. Por favor, rellena todos los campos para poder brindarte un mejor servicio. Los campos con un asterisco (*)
 							son obligatorios.
 						</p>
-						
 					</div>
                 </div>
             </div>
             <!-- End Info title-->
             
-            
             <!-- Info resalt-->
             <div class="info_resalt border_top">
                 <div class="container">
-
-                    <div class="row-fluid">
-
-                        <div class="span6">
+					<div class="row-fluid">
+						<div class="span6">
                             <div id="resultado">
 								<?php
 									if (isset($_GET['ok'])){
 										echo "¡Gracias por registrarte! A partir de ahora recibirás información de los próximos eventos. Para darte 
 											de baja solo contesta un correo con asunto: baja y en el mensaje el motivo.";
 									}
-								/*
-									if ( isset( $_SERVER['HTTP_REFERER'] ) ) { 
-										$refer = strtolower( $_SERVER['HTTP_REFERER'] ); 
-										
-										if($refer === 'http://localhost/agua/suscripcion.php')
-											echo "¡Gracias por registrarte! A partir de ahora recibirás información de los próximos eventos. Para darte 
-											de baja solo contesta un correo con asunto: baja y en el mensaje el motivo.";
-									} 
-								*/	
 								?>
 							</div>
 							<h3>Formulario de suscripción</h3>
@@ -145,18 +134,13 @@
                                 
                                 <input type="submit" name="Submit" value="Enviar Mensaje" class="button">
                             </form>
-
-							
-							
-                        </div>
+						</div>
 
                         <div class="span6">
 							<div class="fb-like-box" data-href="https://www.facebook.com/pages/Javier-Gonzalez-Water-Energy/168603496669439?fref=ts" data-width="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 						</div>
-
-                    </div>
-                   
-                </div>
+					</div>
+				</div>
             </div>
             <!-- End Info resalt-->
 
@@ -166,8 +150,7 @@
 			?>
         <!-- End footer-->
 
-   
-        <!-- ======================= JQuery libs =========================== -->
+		<!-- ======================= JQuery libs =========================== -->
         <!-- Always latest version of jQuery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>   
         <!-- jQuery local-->      
@@ -202,7 +185,5 @@
         <!--fUNCTIONS-->
         <script type="text/javascript" src="js/jquery-func.js"></script>
         <!-- ======================= End JQuery libs =========================== -->
-
-
-  </body>
+	</body>
 </html>
