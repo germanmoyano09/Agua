@@ -10,13 +10,16 @@
 	mysqli_query($conexion, "SET NAMES 'utf8'");
 ?>
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Water Energy - Eventos</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Germán Moyano">
+	<meta name="description" content="Puede hacer click sobre el nombre de los eventos para más información y una galería de fotos de los eventos pasados." />	
+	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="index, follow" />
     
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
