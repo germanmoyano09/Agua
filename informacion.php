@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Water Energy - Información </title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
+    <meta name="author" content="Germán Moyano">
+	<meta name="description" content="Javier González nació en Mendoza, Argentina, donde reside actualmente. Desde hace más de doce años se ha desarrollado en diferentes terapias acuáticas con maestros internacionales pioneros en las mismas" />	
+	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="index, follow" />
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+     <!-- Favicons -->
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
@@ -112,7 +113,7 @@
             
 
             <!-- Info Resalt-->
-           <div id="ri-grid" class="ri-grid ri-grid-size-2">
+            <div id="ri-grid" class="ri-grid ri-grid-size-2">
                 <img class="ri-loading-image" src="img/informacion/grid/loading.gif" alt="Image">
                 <ul>
                     <li><a href="#"><img src="img/informacion/grid/1.jpg" alt="Image"></a></li>
@@ -165,29 +166,29 @@
                     <div class="circle_bottom"></div>
                 </div>
                 <div class="info_vertical">
-                    
-<p>					Todo lo que existe, todo dentro de toda la creación, se manifiesta a través de la vibración armónica de la luz y del sonido. Todo lo que existe es luz y sonido, en su forma más básica es simplemente energía pura. Y la energía es lo que conduce al universo.
-Todas las cosas son creadas a partir de esta energía. Si realmente miras la realidad a un nivel cuántico. Se trata de diferentes frecuencias vibracionales de luz y sonido. Todo. Y está todo conectado porque todo es energía. La energía es lo que hace a la realidad. En lo que en esencia estamos participando es un océano de corrientes distintas, distintas frecuencias y manifestaciones de luz y sonido.</p>
-					
-					<p>El agua es el elemento clave de esta nueva era .Crear un viaje</p>
-					<p>interior con movimientos lentos, toques sutiles y vibración.</p>
-					<!--
-					<h1> <span>Bienvenidos - Water Energy </span></h1>
-					
-					-->
-					
-                </div>
+                    <p>
+						Todo lo que existe, todo dentro de toda la creación, se manifiesta a través de la vibración armónica de la luz y del sonido.
+						Todo lo que existe es luz y sonido, en su forma más básica es simplemente energía pura. Y la energía es lo que conduce al universo.
+						Todas las cosas son creadas a partir de esta energía. Si realmente miras la realidad a un nivel cuántico. Se trata de diferentes 
+						frecuencias vibracionales de luz y sonido. Todo. Y está todo conectado porque todo es energía. La energía es lo que hace a la realidad.
+						En lo que en esencia estamos participando es un océano de corrientes distintas, distintas frecuencias y manifestaciones de luz y
+						sonido.
+					</p>
+					<p>
+						El agua es el elemento clave de esta nueva era .Crear un viaje
+					</p>
+					<p>
+						interior con movimientos lentos, toques sutiles y vibración.
+					</p>
+				</div>
                 <div class="vertical_line"></div>
-
-                <i class="icon-tint left"></i>
+				<i class="icon-tint left"></i>
             </div>
             <!-- End Info title-->
         </section>
         <!-- End content info-->
 
-		 
-		
-        <!-- footer-->
+		<!-- footer-->
 			<?php
 				include("fijo/footer.php"); 
 			?>        
