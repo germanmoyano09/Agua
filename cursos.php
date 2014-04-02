@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Water Energy - Cursos</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Germán Moyano">
+	<meta name="description" content="Introducción al trabajo corporal con sonidos en el Agua, Toque energético en el Agua y más" />	
+	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="index, follow" />
     
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
@@ -187,22 +190,16 @@
                 </div>
             </div>
             <!-- End Info resalt-->
-
-
-      
-        </section>
+		</section>
         <!-- End content info-->
 
-       
-
-        <!-- footer-->
+       <!-- footer-->
 			<?php
 				include("fijo/footer.php"); 
 			?>
         <!-- End footer-->
 
-   
-        <!-- ======================= JQuery libs =========================== -->
+		<!-- ======================= JQuery libs =========================== -->
         <!-- Always latest version of jQuery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>   
         <!-- jQuery local-->      
@@ -237,7 +234,5 @@
         <!--fUNCTIONS-->
         <script type="text/javascript" src="js/jquery-func.js"></script>
         <!-- ======================= End JQuery libs =========================== -->
-
-
-  </body>
+	</body>
 </html>
