@@ -10,19 +10,21 @@
 	mysqli_query($conexion, "SET NAMES 'utf8'");
 ?>
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title> Water-Energy </title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Germán Moyano">
+	<meta name="description" content="El agua es el elemento clave de esta nueva era. Crear un viaje interior con movimientos lentos, toques sutiles y vibración. Bienvenidos a Water Energy por Javier Gonzales." />	
+	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="index, follow" />
     
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+     <!-- Favicons -->
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
@@ -111,8 +113,7 @@
             </div>
             <!-- End Info title-->
             
-
-            <!-- Galeria de Fotos-->
+			<!-- Galeria de Fotos-->
             <div class="info_resalt borders">
                 <div class="container">
                     <div class="row-fluid">
@@ -147,7 +148,6 @@
             </div>
             <!-- End Galeria de Fotos-->
 
-    
 			<!-- Info title-->
             <div class="row-fluid info_title top_animationf">
                 <div class="vertical_line">
@@ -166,12 +166,10 @@
             </div>
             <!-- End Info title-->
 
-
-            <!-- testimonials-->
+			<!-- testimonials-->
             <section class="info_resalt border_top">
                 <div class="comments_carousel top_animationg" id="comments_carousel">                
                     <ul class="slides">
-                        
                         <li>
                             <div class="image">
                                 <img src="img/inicio/commnets/1.jpg" alt="Image">                        
@@ -213,7 +211,6 @@
                             </div>
                             <p>Perfeccionad vos la obra con nuestro amor infinito, para que el fin de su vida no desdiga del principio.</p>
                         </li>
-						
 						
 						<li>
                             <div class="image">
@@ -270,7 +267,6 @@
                             </div>
                             <p>“El poder está dentro de ti"</p>
                         </li>
-						
 					</ul>    
                 </div>  
             </section>  
@@ -294,9 +290,7 @@
                 <i class="icon-comment right"></i>
             </div>
             <!-- End Info title-->
-			
-			
-        </section>
+		</section>
         <!-- End content info-->
 
         <!-- footer-->
@@ -340,6 +334,5 @@
         <!--fUNCTIONS-->
         <script type="text/javascript" src="js/jquery-func.js"></script>
         <!-- ======================= End JQuery libs =========================== -->
-
-  </body>
+	</body>
 </html>
