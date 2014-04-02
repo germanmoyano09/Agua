@@ -10,7 +10,7 @@
 	$sql = 	"INSERT INTO registro (nombre,apellido,correo,telefono) VALUES ('".$_POST['nombre']."','".$_POST['apellido']."','".$_POST['correo']."','".$_POST['telefono']."')";
 	$res = mysqli_query($conexion, $sql);
 
-	header('Location: ../suscripcion.php');
+	header('Location: ../suscripcion.php?ok=ok');
 	
 ?>
 
