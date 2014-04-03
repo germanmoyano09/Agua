@@ -151,18 +151,26 @@
 						<!-- Image animation-->
                         <div class="span4 image_resalt">
                             <div class="animation">
-                               <img src="img/cursos/1.jpg" alt="Image">
+                               <img src="img/cursos/2.jpg" alt="Image">
                             </div>
                         </div>
                         <!-- End Image animation-->
                         <div class="span8">
                              <h2>Toque energético en el Agua</h2>
                              <p>
-								
+								Este curso está diseñado para personas que quiera incursionar en el medio acuático, a través del toque energético 
 							 </p>
-                           
+							 <p>
+								Temas a desarrollar:
+								<br>• Intención el poder del agua.
+								<br>• Toque cuántico .Principios. Respiración.
+								<br>• El poder del corazón. 
+								<br>• Liberación de diafragmas aportes de craneosacral.
+								<br>• Chacras.
+								<br>• El sistema de la circulación energética.
+								<br>• Formas de  toque.
+							 </p>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -173,16 +181,18 @@
                 <div class="container">
                     <div class="row-fluid">
                         <div class="span8">
-                             <h2>Nombre Curso 3</h2>
-                             <h5>Real data from real visitors equals real performance data.</h5>
-                             <p class="lead">"Some interactions on your website are particularly important, and you want to make sure those parts aren’t broken or slow".</p>
-                             <p>So your website is up and running smoothly, but do you know how your visitors experience your website, right now? Utilize Real User Monitoring to see performance data from your actual visitors. It gives you invaluable insights into your website’s load time.</p>
-                           
+                             <h2>Movimientos Integrados</h2>
+							 <p>
+							 
+							 </p>
+                             <p>
+							 
+							 </p>
                         </div>
                         <!-- Image animation-->
                         <div class="span4 image_resalt">
                             <div class="animation">
-                               <img src="img/cursos/1.jpg" alt="Image">
+                               <img src="img/cursos/3.jpg" alt="Image">
                             </div>
                         </div>
                         <!-- End Image animation-->

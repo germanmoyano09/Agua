@@ -104,7 +104,7 @@
                 </div>
                 <div class="info_vertical">
 					<h1>Bienvenidos a <br><span>WATER ENERGY</span></h1>
-                    <p>Agua - Sonido - Energía - Toque</p>
+                    <p>Agua - Sonido - Energía - Toque - Vibración</p>
 				</div>
                 <div class="vertical_line"></div>
 				
