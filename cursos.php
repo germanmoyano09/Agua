@@ -100,7 +100,7 @@
                 </div>
                 <div class="info_vertical">
                     <h2>Cursos dictados por Javier González</h2>
-                    <p>“Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”</p>
+                   <!-- <p>“Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”</p>  -->
                 </div>
                 <div class="vertical_line"></div>
 
@@ -183,10 +183,15 @@
                         <div class="span8">
                              <h2>Movimientos Integrados</h2>
 							 <p>
-							 
+								Este taller está diseñado para  experimentar movimientos en el agua.
 							 </p>
                              <p>
-							 
+								Temas a desarrollar:
+								<br>• Aprenderá  los beneficios de las terapias en el agua.
+								<br>• Tener un buen soporte para su paciente.
+								<br>• Aprender posturas y patrones de movimientos. 
+								<br>• Conducir una secuencia de trabajo.
+								<br>• Conectar movimientos.
 							 </p>
                         </div>
                         <!-- Image animation-->
