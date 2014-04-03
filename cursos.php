@@ -99,7 +99,7 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="info_vertical">
-                    <h2>Cursos dictados por Javier Gonzales</h2>
+                    <h2>Cursos dictados por Javier González</h2>
                     <p>“Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”</p>
                 </div>
                 <div class="vertical_line"></div>
