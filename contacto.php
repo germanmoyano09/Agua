@@ -138,7 +138,7 @@
 							</div>
                             
 							<h3>Formulario de Contacto</h3>
-							<form id="form" action="php/contacto.php" method="post"> 
+							<form id="form1" action="php/contacto.php" method="POST"> 
                                 <input type="text" placeholder="Nombre Completo" name="nombre" required>
                                 <input type="email" placeholder="Correo"  name="correo" required>
                                 <input type="text" placeholder="Teléfono"  name="telefono" required>
