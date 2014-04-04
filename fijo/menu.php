@@ -78,6 +78,11 @@
 						}else{
 							echo '<li><a href="terapia_ai_chi.php">AI CHI</a></li>';
 						}
+						if($subtitulo === "lse"){
+							echo '<li><a class="sel_terapia" href="#">LIBERACIÓN SOMATO-EMOCIONAL</a></li>';
+						}else{
+							echo '<li><a href="terapia_lse.php">LIBERACIÓN SOMATO-EMOCIONAL</a></li>';
+						}
 					}else{
 				?>	
 						<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
@@ -88,7 +93,7 @@
 						<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
 						<li><a href="terapia_monochord.php">MONOCHORD</a></li>
 						<li><a href="terapia_ai_chi.php">AI CHI</a></li>
-					
+						<li><a href="terapia_lse.php">LIBERACIÓN SOMATO-EMOCIONAL</a></li>
 						<!--
 						<li><a href="single_post.php"></a></li>
 						-->
