@@ -16,7 +16,7 @@
     <title> Water-Energy </title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Germán Moyano">
-	<meta name="description" content="El agua es el elemento clave de esta nueva era. Crear un viaje interior con movimientos lentos, toques sutiles y vibración. Bienvenidos a Water Energy por Javier Gonzales." />	
+	<meta name="description" content="El agua es el elemento clave de esta nueva era. Crear un viaje interior con movimientos lentos, toques sutiles y vibración. Bienvenidos a Water Energy por Javier González ▼ ॐ Oṁ _/\_." />	
 	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
 	<meta name="robots" content="index, follow, noarchive" />
 	<meta name="googlebot" content="index, follow" />
