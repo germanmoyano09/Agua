@@ -10,8 +10,10 @@
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+	<!-- Google Analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+	
+     <!-- Favicons  -->
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
@@ -97,13 +99,13 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2>Terapia Craneosacral en el agua</h2>
+                    <h2>Terapia Craneosacral</h2>
                     <p>
 						<h5>¿QUÉ ES LA TERAPIA CRANEOSACRAL? </h5>
                     </p>    
                     <p>
-						Se trata de un sistema de terapia manual suave y profundo, desarrollado por el osteopata estadounidense Dr. 
-						William G. Sutherland a comienzos de siglo.
+						Ésta terapia puede realizarse tanto en la camilla como en el agua. Se trata de un sistema de terapia manual suave y profundo, desarrollado
+						por el osteopata estadounidense Dr. William G. Sutherland a comienzos de siglo.
                     </p>    
                     <p>
 						La Terapia Craneosacral se basa en el principio de la existencia de una pulsación rítmica sutil que emerge 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Eventos</title>    
+    <title>Water Energy - Experiencia Gong</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -10,8 +10,11 @@
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+	<!-- Google Analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+	
+    <!-- Favicons -->
+	 
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">

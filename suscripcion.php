@@ -10,6 +10,9 @@
 	<meta name="robots" content="index, follow, noarchive" />
 	<meta name="googlebot" content="index, follow" />
     
+	<!-- Google Analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+	
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 

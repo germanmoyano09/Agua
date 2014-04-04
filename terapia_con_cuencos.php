@@ -10,8 +10,10 @@
     <!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
-     <!-- Favicons
-    ================================================== -->
+	<!-- Google Analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+	
+     <!-- Favicons -->
     <link rel="shortcut icon" href="img/icons/we_favicon.ico">
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
@@ -99,9 +101,9 @@
                 <div class="post">
                     <h2>Terapia con Cuencos</h2>
                     <p>
-						Nadie puede negar los beneficios que los cuencos tibetanos traen a las personas. Su sonido es utilizado en terapias para 
-						sanar a personas que tienen problemas psicológicos o emocionales, también disminuye dolores, y hasta afirman que esta terapia 
-						sonora elimina células cancerosas del organismo.
+						Ésta terapia puede realizarse tanto en la camilla como en el agua. Nadie puede negar los beneficios que los cuencos tibetanos 
+						traen a las personas. Su sonido es utilizado en terapias para sanar a personas que tienen problemas psicológicos o emocionales, 
+						también disminuye dolores, y hasta afirman que esta terapia sonora elimina células cancerosas del organismo.
                     </p>    
                     <p>
 						En las sesiones de cuenco terapia los pacientes deben recostarse y cerrar sus ojos y dejar que las vibraciones armónicas que 

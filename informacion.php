@@ -9,7 +9,11 @@
 	<meta name="keywords" content="water, energy, agua, energia, toques, vibraciones, terapias, informacion, jahara, watsu, aquarelax, craneosacral, EXPERIENCIA GONG, gong, CUENCOS, monochord, AI CHI, cursos, eventos, maipu, mendoza, argentina, " />
 	<meta name="robots" content="index, follow, noarchive" />
 	<meta name="googlebot" content="index, follow" />
-    <!-- Your styles -->
+    
+	<!-- Google Analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+	
+	<!-- Your styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
 
      <!-- Favicons -->
