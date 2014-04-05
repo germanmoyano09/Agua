@@ -60,13 +60,13 @@
 						}else{
 							echo '<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>';
 						}
-						
+						/*
 						if($subtitulo === "con_cuencos"){
 							echo '<li><a class="sel_terapia" href="#">TERAPIA CON CUENCOS</a></li>';
 						}else{
 							echo '<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>';
 						}
-						
+						*/
 						if($subtitulo === "monochord"){
 							echo '<li><a class="sel_terapia" href="#">MONOCHORD</a></li>';
 						}else{
@@ -78,11 +78,19 @@
 						}else{
 							echo '<li><a href="terapia_ai_chi.php">AI CHI</a></li>';
 						}
+						
 						if($subtitulo === "lse"){
 							echo '<li><a class="sel_terapia" href="#">LIBERACIÓN SOMATO-EMOCIONAL</a></li>';
 						}else{
 							echo '<li><a href="terapia_lse.php">LIBERACIÓN SOMATO-EMOCIONAL</a></li>';
 						}
+						
+						if($subtitulo === "con_cuencos_agua"){
+							echo '<li><a class="sel_terapia" href="#">CUENCOS EN EL AGUA</a></li>';
+						}else{
+							echo '<li><a href="terapia_con_cuencos_agua.php">CUENCOS EN EL AGUA</a></li>';
+						}
+						
 					}else{
 				?>	
 						<li><a href="terapia_jahara_technique.php">JAHARA</a></li>
@@ -90,10 +98,11 @@
 						<li><a href="terapia_aquarelax.php">AQUARELAX</a></li>
 						<li><a href="terapia_craneosacral.php">CRANEOSACRAL</a></li>
 						<li><a href="terapia_experiencia_gong.php">EXPERIENCIA GONG</a></li>
-						<li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li>
+						<!-- <li><a href="terapia_con_cuencos.php">TERAPIA CON CUENCOS</a></li> -->
 						<li><a href="terapia_monochord.php">MONOCHORD</a></li>
 						<li><a href="terapia_ai_chi.php">AI CHI</a></li>
 						<li><a href="terapia_lse.php">LIBERACIÓN SOMATO-EMOCIONAL</a></li>
+						<li><a href="terapia_con_cuencos_agua.php">CUENCOS EN EL AGUA</a></li>
 						<!--
 						<li><a href="single_post.php"></a></li>
 						-->

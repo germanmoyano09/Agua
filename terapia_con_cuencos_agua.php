@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Water Energy - Terapia con Cuencos</title>    
+    <title>Water Energy - Terapia con Cuencos en el Agua</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,7 +60,7 @@
                             <!-- Menu-->
 								<?php
 									$titulo="terapia";
-									$subtitulo="con_cuencos";
+									$subtitulo="con_cuencos_agua";
 									include("fijo/menu.php"); 
 								?>
                             <!-- End Menu-->
@@ -76,7 +76,7 @@
             <div class="container">
                 <div class="row-fluid animated fadeInUp delay1">
                     <div class="span5">
-                        <h1>Terapia con Cuencos</h1>
+                        <h1>Cuencos en el Agua</h1>
                     </div>
                 </div>
             </div>            
@@ -93,7 +93,7 @@
                     <li>/</li>
                     <li>Terapias</li>
                     <li>/</li>
-                    <li>Terapia con Cuencos</li>                                       
+                    <li>Cuencos en el Agua</li>                                       
                 </ul>
             </div>        
         </div>
@@ -108,69 +108,36 @@
                     <div class="circle_top"></div>
                 </div>
                 <div class="post">
-                    <h2>Terapia con Cuencos</h2>
+                    <h2> Cuencos en el Agua</h2>
                     <p>
-						Ésta terapia puede realizarse tanto en la camilla como en el agua. Nadie puede negar los beneficios que los cuencos tibetanos 
-						traen a las personas. Su sonido es utilizado en terapias para sanar a personas que tienen problemas psicológicos o emocionales, 
-						también disminuye dolores, y hasta afirman que esta terapia sonora elimina células cancerosas del organismo.
-                    </p>    
-                    <p>
-						En las sesiones de cuenco terapia los pacientes deben recostarse y cerrar sus ojos y dejar que las vibraciones armónicas que 
-						producen los cuencos metálicos entren en su cuerpo. Al terminar la sesión su equilibrio físico y emocional quedaran estabilizados.
-                    </p>    
-                    <p>
-						¿Pero cómo se produce esto? Es que las vibraciones de los cuencos son tan potentes que alteran el organismo del paciente de una manera 
-						armónica. Durante la sesión el cuenco es colocado en las piernas del paciente, las vibraciones comienzan recorriendo la columna vertebral 
-						y desparramándose por todo el cuerpo hasta llegar al sistema nervioso y órganos. 
-                    </p> 
-					<p>
-						Los sonidos del cuenco en la terapia hacen que el cerebro del paciente quede en un estado de calma ya que lo ayuda a emitir ondas alfa,
-						es por esto que cuerpo pasa a estar totalmente relajado y la persona se siente bien. Este estado aumenta la cantidad de Linfocitos T 
-						que son los que refuerzan el sistema inmunitario.
+						Nace es unos de los lugares más energéticos y mágicos llamado Cacheuta – Mendoza – Argentina , tuve la experiencia de trabajar en un entorno natural
+						montaña , rio, agua termal, fueron fuente de inspiración como también de integración con el sonido  . El trabajo de cuencos en el agua es la integración
+						de varias terapias con el poder sutil del sonido y la  vibración. 
 					</p>
 					<p>
-						<h5>Con los cuencos tibetanos se puede tratar:</h5>
-							<br>- Estados de depresión y angustia.
-							<br>- Contracturas musculares.
-							<br>- Desequilibrios psicológicos.
-							<br>- El estrés y la ansiedad.
-							<br>- Problemas de visión.
-							<br>- Dolores de cabeza.
-							<br>- Estados de ánimo.
-							<br>- Aumento de Defensas del organismo.
-							<br>- Estabilidad mental y emocional.
-							<br>- Aumento de auto confianza.
-							<br>- Controla los estados de insomnio e hiperactividad.
-							<br>- Equilibrio del cuerpo físico, emocional, mental y espiritual.
-							<br>- Enraizamiento planetario y personal.
+						<h5>En qué nos puede ayudar la terapia con cuencos en agua? </h5>
 					</p>
 					<p>
-						<h5>Beneficios</h5>
-							<br>•Obtener calma y claridad a nivel mental y emocional.
-							<br>•Limpiar y purificar la energía del cuerpo, de las emociones y de la mente.
-							<br>•Reconstruir a través del sonido los tejidos del aura.
-							<br>•Entrar en estados de total relajación.
-							<br>•Ser consciente de mí y ver con más claridad la situación por la que se está atravesando.
-							<br>•Aumento de creatividad, concentración y capacidad de acción.
+						El médium Edgar Cayce predijo que el sonido + vibración sería la medicina del futuro y esto ya está ocurriendo.
+						<br>• Los grandes expertos en terapia de sonido ya han descubierto científicamente que mediante el sonido o vibración se puede conseguir la auto-destrucción 
+						de las células cancerosas y la curación de infinidad de enfermedades.
+						<br>• Los cuencos son instrumentos de curación, sanación, relajación y meditación, ayudándonos a establecer una vibración saludable en todo nuestro organismo, 
+						tanto a nivel físico, mental o psicológico, emocional y espiritualmente, por esto es importante la resonancia y el arrastre.
+						<br>• Son un medio maravilloso para equilibrar los chackras y cambiar la conciencia desde un estado alterado de ansiedad y estrés hacia un estado de paz,
+						relajación y serenidad, induciendo estados de sanación espontánea y estados místicos y elevando nuestra frecuencia vibratoria.
+						<br>• Las personas que han experimentado las terapias sónicas con cuencos experimentan grandes cambios, mayor claridad mental, aumento de la creatividad, 
+						mayor concentración, mayor visión de futuro y una gran sensación de paz. El resultado es un individuo más productivo, más centrado, más feliz, más sereno, 
+						más equilibrado, más en paz consigo mismo.
+						<br>• Existe un espacio de paz en nuestro interior donde, el agua y los cuencos nos ayudan a entrar en ellos, a resonamos desde la verdadera conciencia o yo 
+						superior y con ese sentimiento de paz y serenidad que todos llevamos dentro.
+						<br>• A nivel físico se utilizan en la curación de cualquier enfermedad; para recargar nuestro sistema energético, para aliviar el sufrimiento y el dolor 
+						(incluye el dolor emocional), para eliminar inflamaciones, para estados de ansiedad, angustia, estrés, depresión, tristeza, insomnio, hiperactividad.
+						<br>• Hace que los sistemas biológicos funcionen con más homeostasis; calma la mente y con ello el cuerpo y tiene efectos emocionales que influyen en los 
+						neuro-transmisores y los neuro-péptidos, que a su vez ayudarán a regular el sistema inmunitario, el sanador que llevamos dentro.
+					</p>
 
-					</p>
-					<p>
-						<h5>Objetivos</h5>
-							<br>•Encontrar un espacio interno desde la calma y la sanación.
-							<br>•Tener un reconocimiento de lo que soy y de lo que me está sucediendo.
-							<br>•Desarrollar el autoconocimiento y la automotivación.
-							<br>•Despertar la energía de la acción para el cambio y transformar tu vida de forma rápida y práctica.
-					</p>
-					<p>
-						<h5>Método</h5>
-					</p>
-					<p>
-						Para empezar una terapia con cuencos, es importante saber cuál es el propósito y que es lo que se quiere 
-						trabajar (aspectos emocionales, físicos o mentales). Se recomiendan cuatro sesiones.
-					</p>
-					
 					<div class="vertical_line"></div> 					
-                    <img src="img/terapias/con_cuencos.jpg" alt="Image" class="padding_top_mini">          
+                    <img src="img/terapias/con_cuencos_agua.jpg" alt="Image" class="padding_top_mini">          
                 </div>
                 <div class="vertical_line"></div>                
             </div>
