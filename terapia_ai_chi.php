@@ -110,21 +110,22 @@
                 <div class="post">
                     <h2>Ai chi</h2>
                     <p>
-						Es ideal para crear una mejor amplitud de movimiento y la movilidad. Agua, el movimiento y la música se utilizan para fomentar 
-						un estado de conciencia relajada. Ai Chi es un trabajo corporal acuático termal que aprovecha las propiedades de las aguas, el 
-						fomento de la amplitud de movimiento, mientras que el equilibrio difícil (con seguridad) Facilitar y fuerza de la base y la 
-						estabilidad. La serie de movimientos es simple, pero eficaz y de meditación se convierte en Cuando realiza repetidamente y 
-						coordinados con la respiración. Ai Chi es recomendado ampliamente especialmente para la alta tensión y otros trastornos que 
-						limitan el movimiento o la energía y el tiempo disponible, ya que es una actividad importante en nuestro programa de bienestar,
-						ya que puede mejorar la salud física y mental, y reducir al mínimo los efectos de los síntomas de estrés. Ai Chi puede ser una 
-						manera de conseguir su cuerpo en movimiento, aumentar su energía, y promover la flexibilidad y la fuerza. Ai Chi puede ayudar a 
-						reducir la debilidad muscular, dolor generalizado y rigidez en las articulaciones. El agua caliente Permite movimiento lento y 
-						relajado y aumento del flujo de sangre a las articulaciones, tendones, músculos y ligamentos. También se puede reducir al mínimo 
-						los problemas asociados con condiciones tales como: la poli mialgia reumática y la artritis reumatoide.
-                    </p>    
-                    <p>
-						En términos de salud mental, Ai Chi puede reducir al mínimo los problemas: por ejemplo: ansiedad fatiga depresión
-                    </p>    
+						Es ideal para desarrollar una mejor amplitud de movimiento en el Agua.  La secuencia movimiento suave conectada con la respiración  y la 
+						música es utilizada para crear un estado de conciencia relajada. Ai Chi es un trabajo corporal acuático que aprovecha las propiedades del 
+						agua, facilitando  la amplitud de movimiento, y el equilibro con mayor seguridad aportando una mayor  estabilidad a nuestro cuerpo. La serie 
+						de movimientos es simple,  eficaz y meditativa Ai Chi es recomendado especialmente para personas con alta tensión y otros trastornos que 
+						limitan el movimiento o la energía. Es una actividad importante en nuestro programa de bienestar, ya que puede mejorar la salud física y 
+						mental, y reducir al mínimo los efectos de los síntomas de estrés. Ai Chi puede ser una manera de conseguir su cuerpo en movimiento, aumentar
+						su energía, y promover la flexibilidad y la fuerza. Ai Chi puede ayudar a reducir la debilidad muscular, dolor generalizado y rigidez en las 
+						articulaciones. El agua caliente Permite movimiento lento y relajado y aumento del flujo de sangre a las articulaciones, tendones, músculos y
+						ligamentos. También se puede reducir al mínimo los problemas asociados con condiciones tales como: la poli mialgia reumática y la artritis reumatoide.
+					</p> 
+					<p>
+						En términos de salud mental, Ai Chi puede reducir al mínimo los problemas por ejemplo: 
+						<br>• Ansiedad.
+						<br>• Fatiga. 
+						<br>• Depresión.           
+					</p>    
                     					
 					<div class="vertical_line"></div> 					
                     <img src="img/terapias/ai_chi.jpg" alt="Image" class="padding_top_mini">          
