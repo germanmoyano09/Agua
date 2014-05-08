@@ -13,9 +13,9 @@
 		<li>
 			<?php
 				if($titulo === "informacion"){
-					echo '<a class="sel" href="#">INFORMACIÓN</a>';
+					echo '<a class="sel" href="#">SOBRE MÍ</a>';
 				}else{
-					echo '<a href="informacion.php">INFORMACIÓN</a>';
+					echo '<a href="informacion.php">SOBRE MÍ</a>';
 				}
 			?>
 		</li>
