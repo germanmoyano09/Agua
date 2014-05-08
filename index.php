@@ -52,6 +52,9 @@
     <link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen" />
     <![endif]-->
    
+	<!--TRAUCTOR DE GOOGLE-->
+	<meta name="google-translate-customization" content="9de6f73b1de31492-8d86c8d16d08c47a-ga2617c178950b525-14"></meta>   
+   
   </head>
   <body> 
         <!-- Header-->
